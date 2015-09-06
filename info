@@ -1,0 +1,23 @@
+
+IRC CON INFO SLACK FOR
+
+Host: krohx.irc.slack.com
+User: takwas
+Pass: krohx.t0Q09X9qsWF751FXvXEC
+
+
+
+    
+Ensure that your IRC client is configured with your normal Slack username as your nick.
+    
+If you are connecting through a raw /server command, your command will be:
+    /server krohx.irc.slack.com 6667 krohx.t0Q09X9qsWF751FXvXEC
+    
+If you have a more UI-oriented setup, your:
+	IRC server:		krohx.irc.slack.com
+
+, and the
+	server password:	krohx.t0Q09X9qsWF751FXvXEC
+
+	Accepted ports:	6667, 6697, and 8000.
+

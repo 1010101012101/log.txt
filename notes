@@ -1,5 +1,8 @@
 =====================================================================================
 =====================================================================================
+LINUX
+=====================================================================================
+=====================================================================================
 (Refer to the manpage on "grep" for more.)
 grep is used for searching through strings/files for matching patterns. There are deprecated versions of grep: egrep and fgrep, the newer invocations for these (on the command line) are:
 	grep -E
@@ -12,9 +15,12 @@ Some command line options for invoking grep:
 	-v		# show non-matching strings instead
 	-o		# show only matching strings not the entire lines
 	-n		# show line numbering for matching lines
+	-I		# do not search binary files
 
 To search for all files in a folder, use the '*' wildcard character as file-to-search argument.
 	-H		# display filename for file containning matching line
+	-d [ACTION] OR --directories=[ACTION] 		# e.g ACTION can be recurse to search directories recursively
+	-r OR --recursive		# same as "-d recurse above"
 
 =====================================================================================
 =====================================================================================
@@ -55,3 +61,23 @@ An example:
 	sed -e 's/night/day/'
 A common error is to forget to include the trailing forward slash which results in the following error message:
 	" sed: -e expression #1, char 14: unterminated `s' command "
+
+
+
+
+=====================================================================================
+=====================================================================================
+Python:
+=====================================================================================
+=====================================================================================
+'assert' statements are used to test the truethiness of statements:
+	if the expression being tested is True, nothing happens, the program continues as normal;
+	otherwise, if it evalutes to False, then an AssertionError will be raised
+
+with
+
+======
+git
+======
+	Push changes to a remnote git repo:
+		- git push -u origin master

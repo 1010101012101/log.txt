@@ -83,3 +83,38 @@ Use the 'export' command to create an environment variable like so:
 Android Studio
 ===================================
 	The Android Studio IDE is run directly from the extracted setup files. You start the IDE by running the "studio.sh" shell script found in its "bin/" directory.
+
+
+
+===================================
+Git config
+===================================
+Use the 'git config' command line tool to set/update git configuration variables such as username
+
+Example config command:
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+
+Command options:
+	git config --system									# command option for system-wide config
+	git config --global									# for user specific git config
+	git config												# git config for current git repo
+
+Files:
+	/etc/gitconfig											# system-wide git config
+	/.gitconfig or ~/.config/git/config				# git file in home directory (user global config)
+	.git/config												# config file in git directory of current repository
+
+
+
+===================================
+gitbox it!
+===================================
+First I create a local git repo in my desired folder.
+Set things as normal
+Go to github; add a new repo
+Do a "git add" and a "git commit"
+Then push to the online repo with:
+	- git remote add origin [online_repo_url]
+	- git remote -v 			# verify the new remote url
+	- git push origin master	# finally push changes

@@ -110,21 +110,21 @@ Files:
 ===================================
 gitbox it!
 ===================================
-First I create a local git repo in my desired folder
+First I create a local git repo in my desired folder:
 	$ git init
 Set things as normal. Create a .gitignore file in repo's root directory
-See how things are going
+See how things are going:
 	$ git status
 Go to github; create a new repo
-Add and commit local changes
+Add and commit local changes:
 	$ git add
-	$ git commit"
-See how things are going again
+	$ git commit -m "[commit message]"
+See how things are going again:
 	$ git status
 Then push to the online repo with:
 	$ git remote add origin [online_repo_url]
 	$ git remote -v 			# verify the new remote url
-Pull changes from online repo
+Pull changes from online repo:
 	$ git pull origin master
-Finally push changes
+Finally, push changes:
 	$ git push origin master

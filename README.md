@@ -15,4 +15,4 @@ File "notes" contains different things I learn as I go on.
 
 File "web" is for bookmarks. also uses tags.  
 
-
+z

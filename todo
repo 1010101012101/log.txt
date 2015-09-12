@@ -1,13 +1,14 @@
-#:job: :resume: Update resume
-:krohx: :afraisr: Segun sent files for update
-:niit: Bukky
-:mms: Rename NIIT class folder to Web Page Authoring
-#:faculty: :assignment: [CSharp] file:class_assignment_02_09_2015
-:write: :blog: "I gitbox it..."
-:write: :blog: "My interview (Journey to NIIT)"
-:bank: Get util_bill; open CA; send slips (via Chuka)
-:project: :dev: :git: flask_template project - update; add documentation
-:call: grandma
-:learn: github markdown
-:whatsapp: edit and change MMS groups' photos
-:faculty: :mms: :csharp: organise class schedule
+#job:resume::Update resume
+krohx:afraisr::Segun sent files for update
+niit::Bukky
+mms::Rename NIIT class folder to Web Page Authoring
+#faculty:assignment::[CSharp] file:class_assignment_02_09_2015
+write:blog::"I gitbox it..."
+write:blog::"My interview (Journey to NIIT)"
+bank::Get util_bill; open CA; send slips (via Chuka)
+project:dev:git::flask_template project - update; add documentation
+call::grandma
+learn::github markdown
+whatsapp::edit and change MMS groups' photos
+faculty:mms:csharp::organise class schedule
+niit:git::create a git repositoty for niit files; ignore faculty resources and other sensitive files

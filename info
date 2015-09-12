@@ -13,10 +13,7 @@ If you are connecting through a raw /server command, your command will be:
     
 If you have a more UI-oriented setup, your:
 	IRC server:		krohx.irc.slack.com
-
-and the
-	server password:	********
-
+	Server password:	********
 	Accepted ports:	6667, 6697, and 8000.
 
 

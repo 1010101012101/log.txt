@@ -1,6 +1,4 @@
 
-
-
 ====================================
 Setting up Themes for Ubuntu Unity
 ====================================
@@ -45,7 +43,7 @@ Get installation instructions for KVM here:
 ============================
 Update pip
 ============================
-	pip install --upgrade pip		# check to see if command is correct
+	$ [sudo] pip install --upgrade pip		# 'sudo' might be optional depending on install environment
 	
 	
 
@@ -58,8 +56,8 @@ Configure system defaults
 ===================================
 Set 'terminator' as default gnome-terminal
 ===================================
-	 gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
-	 sudo update-alternatives --config x-terminal-emulator
+	 $ gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
+	 $ sudo update-alternatives --config x-terminal-emulator
 
 
 
@@ -75,7 +73,7 @@ Set 'terminator' as default gnome-terminal
 Setting Environment Variables
 ===================================
 Use the 'export' command to create an environment variable like so:
-	export VAR_NAME=path/to/fileORfolder
+	$ export VAR_NAME=path/to/fileORfolder
 
 
 
@@ -128,3 +126,28 @@ Pull changes from online repo:
 	$ git pull origin master
 Finally, push changes:
 	$ git push origin master
+
+
+
+
+===================================
+(Meld) File Diff Comparisons
+===================================
+Meld is a good GUI tool for comparing text file differences. It can also compare folder differences. To install, use
+	$ sudo apt-get install meld
+
+
+
+
+===================================
+Bash History
+===================================
+The ".bash_history" file in my home directory (~) stores command histories, that is, all the commands I type in the terminal are logged in this file.
+
+An easy way to search for specific commands in my command history is to use:
+	$ grep -E '[command_or_part_of_command]' ~/bash_history
+
+
+
+
+

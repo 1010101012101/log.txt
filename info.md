@@ -25,3 +25,7 @@ My local git repos:
 	- ~/dev/web_dev/flask_web_dev/practice/flask_learn/template_app
 	- ~/log_things_I_do
 	- ~/dev/python_dev/workspace/python_class
+	- ~/niit
+	- ~/dev 																														# not hosted on Github yet
+	- ~/dev/web_dev/flask_web_dev/proj/krohx_proj/afraisr												# not hosted on Github yet
+	- ~/dev/web_dev/flask_web_dev/proj/krohx_proj/router												# not hosted on Github yet

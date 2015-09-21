@@ -2,6 +2,8 @@
 
 Personal Note: **Remember to** ***gitignore*** **files containing sensitive info!**  
 
+Kindly follow my penned thoughts here:      https://meekgeek.quora.com/ ( for short: http://qr.ae/QPPAw )
+
 keep track of my text files  
 
 TODO Files Syntax:
@@ -15,4 +17,9 @@ File "notes" contains different things I learn as I go on.
 
 File "web" is for bookmarks. also uses tags.  
 
-z
+
+             V
+
+     http://qr.ae/QPPAw
+
+             ^

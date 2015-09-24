@@ -151,3 +151,44 @@ An easy way to search for specific commands in my command history is to use:
 
 
 
+===================================
+Git (on Bitbucket) workflow
+===================================
+
+Ensure to use "compare" to see changes before issuing a pull request.
+
+
+
+
+
+===================================
+Terminator HotKeys
+===================================
+	ctrl+shft+t				#open new tab
+	ctrl+shft+[d]/[w]		#close current tab
+	ctrl+shft+e				#split tab vertically
+	ctrl+shft+o				#split tab horizontally
+	ctrl+shft+g				#clear screen and temp remove user name from screen
+	ctrl+shft+f				#search within terminal
+	ctrl+shft+[z]/[x]		#toggle current window size
+	ctrl+shft+v				#paste from clipboard
+	ctrl+shft+t				#open new tab
+	ctrl+shft+t				#open new tab
+	ctrl+shft+t				#open new tab
+
+
+
+
+
+===================================
+Linux 'alias' command
+===================================
+Since I frequently have to activate my virtualenv for a particular project
+and afterwards navigate to the project's directory, I decided to wrap it all
+in an 'alias' (Linux allows you to create aliases for frequently used commands
+and their options). Now, with just one command I do both of the things.
+So much faster, isn't it?
+
+So to create an alias and have it available to you when you start a new
+terminal [emulator] session, make sure the alias creation command is stored
+in your "~/.bashrc" file.

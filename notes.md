@@ -113,7 +113,8 @@ git
 - A tag-name alias much like the branch alias names a commit. However, while a branch alias changes everytime a new commit is cheked in to a branch, a tag alias never changes.
 - A commit can also be reffered to by its 40-character SHA I hash id -- you usually only have to type 6 to 7 or more characters of this hash id to identify an object.
 
-	git reset --hard [branch name or hash id of commit]		# '--hard' option means clear all changes currently in my working tree
+	git commit	--allow-empty-message								# Allows you to commit without a commit message
+	git reset --hard [branch name or hash id of commit]		# '--hard' option means clear all changes currently in my working tree; i.e. take me back to specified commit, clearing everything (every commit) along the way
 	git checkout [hash id of commit or branch name] [-f]		# the optional option '-f' has the same function as '--hard' above
 	git branch																	# list, create or delete branches
 	git show-branch
@@ -123,13 +124,14 @@ git
 	git rebase -i
 	git branch -d [branchname]											# delete a branch making sure if it has been fully merged in HEAD 
 	git branch -D [branchname]											# fully delete a branch irrespective of its merge state
+	git branch -r																# view list of remote tracking branches; i.e branches on my remote repos
 	
 	git merge [branchname]												# join changes from branch with 'branchname' with current branch
 	
 	git log																		# list commits newest to oldest
 	git log -p																	# list commits with their diff
 	git log --grep="[pattern]"											# list commits whose commit messages contain the given string pattern
-	git log -S --one-line													# show one-liner log summary
+	git log --one-line													# show one-liner log summary
 	git blame [filename]													# show all lines of file with "filename" and their current commit
 	
 	git rm --cached [filename]											# safely remove (unstage) file from git repo index, leaving file untouched in working tree
@@ -161,9 +163,12 @@ The above command has a useful option '-u' that should be used with the first ti
 		git push -u origin master			# the -u option allows tracking of changes on the remote repository
 
 	Here's a typical Git collaboration workflow: First you fork an original repo if given "read access" -- which is what you'd get by default if given access at all. This gives you your own copy of the repository. You treat your fork as your remote repo, and clone it to your local development machine where you can make changes.
-	At this point, you work like you would with a regular BitBucket/Github hosted repo. Make changes as usual, branch, merge, resolve conflicts -- you know, the whole nine yards.
-	If you ever feel like sending (patching) in your changes with the original project you forked from, then you'd need to do some house cleaning, and push to "your remote" repo.
-	What follows is you sending-in a kind of request called a "pull request" to the original repo. If their author be kind enough to allow thee mess with things a little, then you'll receive an affirmative response, after which the hosting service (BitBucket/Github) pulls and merges your changes with that repo.
+	At this point, you work like you would with a regular BitBucket/Github hosted repo. Make changes as usual, branch, fetch and merge (or pull), resolve conflicts -- you know, the whole nine yards.
+	If you ever feel like sending (patching) in your changes with the original project you forked from, then you'd need to do some house cleaning (on your local development machine), and push to "your remote" repo.
+	What follows is you sending-in a kind of request called a "pull request" (which is essentially a kind of "merge" request) to the original repo. If their author be kind enough to allow thee mess with things a little, then you'll receive an affirmative response, after which the hosting service (BitBucket/Github) pulls and merges your changes with that repo, not automatically of course -- you instruct it to.
+
+
+	A git rebase is essentially a neater version of a branch merge. So when you've wandered away for some time, and you wish to come back home, you could easily a do a merge. But the sad old memories stay there, right? What if you could you magically have your memories (of your time of wandering away) wiped off. Well, I've got good news -- git rebase would do just that for you. So you come back home, and continue your life like the bad things never happened.
 
 
 

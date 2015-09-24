@@ -1,6 +1,7 @@
 #job:resume::Update resume
 niit:mms:competion:presentation::update section on "Points towards my forthcoming presentation at NIIT"
-krohx:afraisr::Clarify files in /home/acetakwas/dev/web_dev/flask_web_dev/proj/krohx_proj/temp with Segun and  delete as necessary
+krohx:afraisr:segun::Give "afraisr" alias script to Segun:		alias pj_afraisr="source ~/dev/my_virtualenvs/flask_venv/bin/activate && cd ~/dev/web_dev/flask_web_dev/proj/krohx_proj/afraisr/"
+#krohx:afraisr::Clarify files in /home/acetakwas/dev/web_dev/flask_web_dev/proj/krohx_proj/temp with Segun and  delete as necessary
 krohx:afraisr::Segun sent files for update .. folder location: ~/dev/web_dev/flask_web_dev/proj/krohx_proj/afraisr
 niit:script::Bukky's Linux project
 mms::Rename NIIT class folder to Web Page Authoring

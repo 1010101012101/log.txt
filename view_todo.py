@@ -2,13 +2,14 @@
 
 
 td_file = "todo.md"		# name of todo file
-#td_cont = []
+
 td_tags = ""			# list todo tags
+
 menu = { \
 	1: "View todos", \
 	2: "View tags", \
 	3: "View todos with tag" \
-}
+}						# menu used when running the program
 
 
 

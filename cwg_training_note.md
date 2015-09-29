@@ -53,9 +53,25 @@ Apologies
 
 
 
-In summary, Seek CUSTOMER SATISFACTION
+In summary, make CUSTOMER SATISFACTION your guiding principle
 
 
 
 
-Dom
+
+SMERP - Cloud-based solution
+
+ERP - Enterprise Resource Planning
+For business accounting
+
+Records such as: Product, Marketing, Shipping, Inventory, Payments
+ SaaS - Essentially translates to a Pay-as-you-use system
+ 
+It provides one integrated syustem for all departments
+It is cost efficient - E.g. no extre server costs, less expenses on resources
+There is improved flow of communication
+Little or no data replication
+
+Easily implemented
+SMERP is a modular appllication; so you get what suits/is-needed-by your particular business
+It is web-based so it is cross-platform

@@ -36,5 +36,5 @@ niit:faculty:.net::workon files: "Template.cs"; "ProcedureDemo.cs"
 pc:git::create a central dir to with symlinks to all local git repos
 script:bash::automate file diff-ing with Meld via the terminal; auto launch Meld when device is connected
 niit:faculty:.net::Treat object oriented concepts with practical classes; compare POP to OOP; explain class Properties {get; set;}
-
+project:dev::sticky note management application; should allow for easy management of todo and note taking.
 ::

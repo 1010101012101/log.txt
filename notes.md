@@ -15,10 +15,11 @@ respectively.
 
 Some command line options for invoking grep:
 	-c		# show the count of matching strings
-	-v		# show non-matching strings instead
+	-v		# show non-matching strings instead. Negative search
 	-o		# show only matching strings not the entire lines
 	-n		# show line numbering for matching lines
-	-I		# do not search binary files
+	-I		# do not search binary files (NOTE: uppercase "i" not lowercase "L")
+	-l		# show file names for files with matching string instead of matching content (NOTE: lowercase "L" not uppercase "i")
 
 To search for all files in a folder, use the '*' wildcard character as file-to-search argument.
 	-H		# display filename for file containning matching line
@@ -30,7 +31,8 @@ To search for all files in a folder, use the '*' wildcard character as file-to-s
 Useful commands [with some commonly used options]:
 	ls -d							# list directories without showing their contents
 	echo -e						# enable the interpretation of backslash characters	
-
+	ls -R							# list directories recursively
+	
 
 =====================================================================================
 

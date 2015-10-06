@@ -6,6 +6,7 @@ git:
 ===========================================================================================================================================================
 ===========================================================================================================================================================
 
+httrack:website::Mozilla Developer Network
 download:ubuntu::dictionary
 read:port:tcp:udp::wikipedia article on TCP and UDP; aim is to learn about the concept of ports
 download:ubuntu::dolphin file manager

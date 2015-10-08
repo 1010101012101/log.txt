@@ -1,16 +1,20 @@
-CWG Training - 29.Sep.2015
 
-Training on:
+Computer Warehouse Group (CWG) Training - [ 29.Sep.2015 ]
+
+
+A training session on two of their web applications:
 	- Openshopen
 	- SMERP
 
+
 First Talk: Chidi Asiegbu - Business Owner
+
 
 
 How do you sell your product?
 
 
-Busines Tips:
+Business Tips:
 
 Build Relationships:
 	Identify Territory - Who are selling to?

@@ -261,6 +261,9 @@ To begin, navigate to the folder above in your terminal and type "git init". To 
 
 To begin adding files for tracking, type "git add ." followed by "git commit". Your default text editor would immediately launch and you can type some message to indicate that this is your first commit.
 
+To ease things up a bit, I have decided to use my programming prowess to create a tool to streamline this process. The caveat to beware of is that this setup is best suited for managing text-files.
+
+In my usual wandering around the web, I stumbled upon a tool that makes the process of file conflicts resolution seem like sugar. This tool goes by the name "Meld". And guess what, it's written in Python. No joke: since discovering this tool, I have anticipated more and more merge conflicts in dealing with version controlling. It's just such a neat process to be able to look at two or three more files that are paradoxically both similar and dissimilar and be able to sync their contents by hand so fluidly.
 
 ================#####=================
 
@@ -343,13 +346,11 @@ PyClass days 1,2,3
 With Great COMMITments
 ---------------------------
 
-
 These two articles [links below*] are definitely worth your time if you are looking to learn some good habits. Asides their evangelism of good practices, they have both helped me appreciate the usefulness of such a powerful tool, another geeky contribution of our genius Linus Torvalds. This tool, which is described in her official Man Pages as "the stupid content tracker" is Git. Git is a collaborative development tool -- there is a technical jargon: "Distributed Version Control System" -- and as such should be used with others (team members or collaborators) in mind.
 
 * Here are the links:
-
-    Deliberate Git - Rake Routes
-    How to Write a Git Commit Message
+	- Delibrate Git - http://rakeroutes.com/blog/deliberate-git/
+	- How to Write a Git Commit Message - http://chris.beams.io/posts/git-commit
 
 
 Perhaps you haven't heard of Git or do not know its purpose. So I'll put it simply: Git is useful for at least two things:
@@ -386,16 +387,28 @@ Within the last two weeks, I have created several repositories within my Linux m
 Takwas on Gihub - Click on the "Sources" tab to see my the repos that were actually created by me as opposed to the forked ones.
 
 ================#####=================
-
-
-Raised with a silver spoo
+Raised with a silver spoon
 
 Although born in one of the most awkward ways known to man, Mark's birth wasn't a totally strange one. His mnother had been squatting on a pit laterine when providence had it that he had reached his destination after a rather long journey of nine months. Yes he had gotten to his destination, but his timimg was awfully near-fatal as he only managed to stay atop the laterine by the help of his slightly big head, which held him back from falling with the rest of his mother's faeces.
 
 Life definitely had more surprises for this creature as he wasn't going be greeted with a warm life afterall.
 
 ================#####=================
+What Project are you working on?
+-------------------------------------------
 
+Should you do a side project? Absolutely! That has to be a no brainer, right?
+
+It's the one question I have seen asked over and over again by potential employees/partners/ angel investors. You see, no one really cares about what you can do. What speaks volumes for you is what you have taken the pain to do.
+
+If you're a startup, investors are not necessarily concerned about your viability -- even though they are to some extent. What matters the more is how your successes have level up against your failures -- yes failures do count as well, because that gives them a good overview of the strengths and weaknesses of your business.
+
+It's the same game that plays out in an interview room. As a developer, when people speak of experience, you shouldn't narrow your scope to just experience gotten from paid jobs. It is more important that you focus on how many challenges you have faced  [and overcome], and what lessons you've brought back home.
+
+Take on frequent side projects -- it doesn't matter how big the project idea is, but try to see it to completion. 
+
+
+================#####=================
 Points towards my forthcoming presentation at NIIT
 -------------------------------------------------------
 
@@ -409,9 +422,57 @@ Have we used an optimized algorithm versus an approach based on exhaustive enume
 
 
 ================#####=================
+Yesterday, I had a prototypical  pitch of AFraisr at a prototypical MMS competition.
+
+Well, the preparations had been going on for months, but the real event took place yesterday.
+
+In what would be a rather disappointing decision on my path. I pre-released the app to a minified audience. In teuth, this wasn't a move I made  unreluctantly. In fact, I made the decision at the VERY LAST MINUTE.
+
+I had made some progress to the router app I was working on -- I'm still working on it -- but, carelessly failed to git-commit at certain important stages. That may not have been the main issue. Something of more importance was the fact that I had a poor GUI.
+
+My attempts to fix this resulted in uncontrollable/unresolveable bugs at the time. This ultimately led me to one saving grace: prematurely pitching AFraisr.
+
+Well, that ends the sordid bit of the tale. The good part begins with the fact that the presentation went better than I had expected, even though I had obscured some parts of the app from the intrigued audience.
+
+What followed was questions that indicated the "noobness" of the audience to rhe concept of crowdfunding or even a crowdfunding platform.
+
+Having done the pitch without consent from the rest of my team, I was now under the onus to apologise for my actions, which I consequently did.
+
+That part went well as well. But "what comes afterwards?" becomes the big question. AFraisr has taken its firsy peep into the world. How would it be treated by a much broader audience? In about a month from now which is the prototype launch time-goal we have set for ourselves, we might get a peek into the answers to these questions.
+
+In other events of the day, a face-off that was supposed to be the main activity for the day saw the SE students lock horns with NE students. The result? Obvious: the software guys were trumping. Truth be told though, it was an unevenly matched set of participants.
+
+
 ================#####=================
+
+I felt inclined to write this afyer [name here] swnte an A2A on gis question.  
+
+So How do you go from novice to maestro on the fomputer?
+
+You see, I can't tell you that. But I xan tell you avout my journey. I started out like every ither persin a complete noob.
+
+Intuitiveness is a powerful skill to posess. I say skill because, I find it surprisingly lacking in a number of people. Some people, out of fear, fail to try out any hunches, worse yet, some do not even border to think of possible workarounds for they are faced with. It is true that you can't fix everything, but you can't know that you can make some headways unless you try.
+
+A very common habit with my IT end-users is that of wanting your hands to held while you walk along. Some people want you to turn on their computers for them. During a conversation with an acquaintance today -- a guy named Emeka (works at the Lagos Business School) -- Emeka told me of an experience where a client came complaining of a "not-working" computer. When he got to the PC in question, he found out that the power cable had been disconnected. Funny enough, the lady knew this, but had failed to simply connect the cable for fear of an electric shock. How pathetic can people be?
+
+So you think you want to be good with computers? Then you must first take off your garment of fear, and come in to taking daring things. In IT, you must be ready to tinker with a lot of things. A bulk of what I know was learnt that way.
+
+
+
 ================#####=================
+Analogy: Methods in OOP
+
+Think of a microwave oven, you have a button which you can set to different values (parameters). The button safely encapsulates the function/mechanism of warming your food. So you bother less about how the operation is carried out, and concentrate on setting the button right.
+
+
 ================#####=================
+Analogy: Private/Public "methods"
+
+(Emphasis on "methods" because I am not simply talking generally about "functions" or subroutines.)
+Think of an automatic shift car and a manual shift one. We know that a gear and a clutch can be likened to methods of a "car object" in OOP.
+
+In the manual shift vehicle, you have public access to both the gear and the clutch. However, the automatic shift machine only gives you access to the "gear method", thereby encapsulating the the "clutch method".
+
 ================#####=================
 ================#####=================
 ================#####=================

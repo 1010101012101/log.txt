@@ -11,4 +11,6 @@ bookmark:blog:git::http://chris.beams.io - Chris Beams' blog (writes about Git a
 bookmark:git::http://chris.beams.io/posts/git-commit - How to Write a Git Commit Message
 bookmark:python:book::http://effbot.org/ - Lots of resources for Python (articles, source code, books)
 resource:bookmark::https://github.com/aporter/coursera-android
+bookmark:howto:irc:freenode::https://blog.freenode.net/2008/04/registering-a-channel-on-freenode/ - How to Register a Channel on the IRC Freenode Server/Network
+bookmark:typing:keyboard::http://typing-speed-test.aoeu.eu/?lang=en - Take a typing speed test
 ::

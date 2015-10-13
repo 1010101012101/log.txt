@@ -30,11 +30,23 @@ download::http://git-cola.github.io/downloads.html - Git Cola, a GUI client for 
 ##git::track content from my "log.txt" repo on my phone and sync files with naming disparities
 git::track content from my "log.txt" repo on my phone and sync files
 android:download::Nova Launcher
-tobi:family::inform Tobi to put cash in holding via etranzact
-niit:faculty::inform Mr Ben of missing "slide_04"
+#tobi:family::inform Tobi to put cash in holding via etranzact
+#niit:faculty::inform Mr Ben of missing "slide_04"
 niit:faculty:.net::workon files: "Template.cs"; "ProcedureDemo.cs"
 pc:git::create a central dir to with symlinks to all local git repos
 script:bash::automate file diff-ing with Meld via the terminal; auto launch Meld when device is connected
 niit:faculty:.net::Treat object oriented concepts with practical classes; compare POP to OOP; explain class Properties {get; set;}
 project:dev::sticky note management application; should allow for easy management of todo and note taking.
+#call:sms::check on Jenim
+niit:math:task::learn and attempt combination problem for Mr Jeff
+#bitbucket:git:krohx:afraisr::Setup/bitbucket repos
+read::SEO
+project:dev::github backed note app
+#bitbucket:git::push local krohx branch to remote (krohx) master branch -  $ git push krohx krohx:master
+project:dev:whatsapp bot based on scraping whatsapp web
+tac:choir:songs::prepare songs for medley against service of songs
+#temp:: move this to "Internet_todo"; download telegram app
+niit:faculty::Write code for static function call counter for students
+fix::Clipboard manager issue with the LXDE environment
+laundry:howto::how do I Properly wash my hoodie?
 ::

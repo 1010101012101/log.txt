@@ -131,6 +131,23 @@ Finally, push changes:
 
 
 ===================================
+Typical Git workflow
+===================================
+
+git branch frontend												# create branch called "frontend"
+git checkout frontend												# move to branch called "frontend"
+# ...make changes to files...
+git add .																# add new files and modified files
+git commit -m [your commit message]							# save current working tree in history
+git checkout master												# move to branch called "master"
+git merge frontend													# merge in changes from branch called "frontend" with current branch
+git pull origin 														# Bring changes from bitbucket. This one isn't always compulsory. 
+git push [-u] origin master										# push changes to bitbucket
+
+
+
+
+===================================
 (Meld) File Diff Comparisons
 ===================================
 Meld is a good GUI tool for comparing text file differences. It can also compare folder differences. To install, use
@@ -164,19 +181,26 @@ Ensure to use "compare" to see changes before issuing a pull request.
 ===================================
 Terminator HotKeys
 ===================================
-	ctrl+shft+t				#open new tab
-	ctrl+shft+[d]/[w]		#close current tab
-	ctrl+shft+e				#split tab vertically
-	ctrl+shft+o				#split tab horizontally
-	ctrl+shft+g				#clear screen and temp remove user name from screen
-	ctrl+shft+f				#search within terminal
-	ctrl+shft+[z]/[x]		#toggle current window size
-	ctrl+shft+v				#paste from clipboard
-	ctrl+shft+t				#open new tab
-	ctrl+shft+t				#open new tab
-	ctrl+shft+t				#open new tab
+	ctrl+shft+t				# open new tab
+	ctrl+shft+[d]/[w]			# close current tab
+	ctrl+shft+e				# split tab vertically
+	ctrl+shft+o				# split tab horizontally
+	ctrl+shft+g				# clear screen and temp remove user name from screen
+	ctrl+shft+f				# search within terminal
+	ctrl+shft+[z]/[x]			# toggle current window size
+	ctrl+shft+v				# paste from clipboard
+	ctrl+shft+t				# open new tab
+	ctrl+shft+t				# open new tab
+	ctrl+shft+t				# open new tab
 
 
+
+
+
+===================================
+SublimeText Editor
+===================================
+	ctrl+shft+A				# select whole block surrounded by the currently selected tag
 
 
 
@@ -192,3 +216,21 @@ So much faster, isn't it?
 So to create an alias and have it available to you when you start a new
 terminal [emulator] session, make sure the alias creation command is stored
 in your "~/.bashrc" file.
+
+
+
+
+===================================
+IRC
+===================================
+Good IRC Clients:	Weechat, HexChat (GUI), irssi
+To unban, ask a mod.:
+	/query <mod's name> message
+
+Get a list of users:
+	/names
+
+Hexchat settings:
+	/set
+	/set irc_auto_rejoin ON					# makes you auto-rejoin if you're kicked
+

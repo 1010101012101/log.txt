@@ -26,24 +26,8 @@ My local git repos:
 	- ~/log_things_I_do
 	- ~/dev/python_dev/workspace/python_class
 	- ~/niit
-	- ~/dev 																														# not hosted on Github yet
+	- ~/dev 																													
 	- ~/dev/web_dev/flask_web_dev/proj/krohx_proj/afraisr												# not hosted on Github yet
 	- ~/dev/web_dev/flask_web_dev/proj/krohx_proj/router												# not hosted on Github yet
 	
 
-
-alias afraisr="source ~/web_dev/flask/bin/activate && cd ~/web_dev/flask/projects/afraisr"
-
-
-
-Always remember these .....
-
-git branch frontend													# create branch called "frontend"
-git checkout frontend												# move to branch called "frontend"
-# ...make changes to files...
-git add .																# add new files and modified files
-git commit -m [commit message]								# save current working tree in history
-git checkout master												# move to branch called "master"
-git merge frontend													# merge in changes from branch called "frontend"
-git pull origin 														# Bring changes from bitbucket. This one isn't always compulsory. 
-git push -u origin master											# push changes to bitbucket

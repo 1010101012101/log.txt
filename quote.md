@@ -25,6 +25,9 @@ It was art."
 - Purple Hibiscus
 
 ================#####=================
+
+"Parkinson's Law states that "work expands to fit the time allotted""
+- Quora (Nicolas Cole's answer to: "What are some tricks to prevent laziness and procrastination?")
 ================#####=================
 ================#####=================
 ================#####=================

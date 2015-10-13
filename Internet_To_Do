@@ -6,6 +6,9 @@ git:
 ===========================================================================================================================================================
 ===========================================================================================================================================================
 
+download::https://update.gitter.im/linux64/latest - Linux app for Gitter (Git chatroom app)
+httrack:book:foss::http://www.oreilly.com/openbook/freedom/ - Free as in Freedom by Richard M. Stallman (RSM)
+httrack:tutorial::http://www.w3schools.com/bootstrap/default.asp
 httrack:website::Mozilla Developer Network
 download:ubuntu::dictionary
 read:port:tcp:udp::wikipedia article on TCP and UDP; aim is to learn about the concept of ports
@@ -21,8 +24,8 @@ read:encoding::http://diveintopython.org/xml_processing/unicode.html (Link from 
 #qquery::"How comprehensible do you find Unix/Linux Man pages?"
 #qquery::"What is the difference between a man page and an info page in Linux? Which one should I consult more often?"
 #qquery::"Would you take up a job to teach a course if your knowledge of the subject is only about 50%, and you are willing to study on-the-job to cover up your lapses? (Let's say your knowledge though incomplete comes with some practical experience.)"
-slack:irc::Change Slack IRC pwd
-sublime:plugin::get plugin for Markdown support
+#slack:irc::Change Slack IRC pwd 	--		[I tried to change it, but the pwd is auto-generated] 
+#sublime:plugin::get plugin for Markdown support
 download::http://git-cola.github.io/downloads.html
 download::http://filepi.com/i/wtuFlQa
 download::http://www.google.com/url?q=http://www.sws.bfh.ch/~amrhein/ADP/HeadFirstDesignPatterns.pdf&sa=U&ved=0CCYQFjAEahUKEwiEn6fX_PTHAhVH1XIKHUbpBwI&usg=AFQjCNH0BOpkRPEcD6b_6_4yGOIwk2Yt1Q
@@ -83,3 +86,4 @@ download::https://youtu.be/JXZezfBuSB0
 #download::https://www.youtube.com/watch?v=vW53w7me4AE&list=PLAsTCriDN8nldLwhmPAUc7AzeiCLtnjEF
 #download::https://www.youtube.com/watch?v=5_EvsDPSdSM&list=PLRhsTtvlyAXY8Ql0S25h3VLaUAYLcD-XD
 #download::https://www.youtube.com/watch?v=pyPfNOs7vGk
+

@@ -141,6 +141,9 @@ git
 	
 	git pull																		# fetch and merge changes from a remote repository into the current local branch
 	git ls-files --other --ignored --exclude-standard			# list all ignored/untracked files in this repository
+	
+	git clean -fd 																# delete everything (only git-tracked files) and start all over
+	git clean -fdx 															# same as above, but delete everything (include git-ignored files)
 
 A commit is an object which holds a reference to its parent commit(s) back to their original ancestor, thus forming a history. A commit also references a tree object, which in turn could reference one or more tree objects and blobs (blobs hold the contents of our files).
 	
@@ -173,6 +176,22 @@ The above command has a useful option '-u' that should be used with the first ti
 	A git rebase is essentially a neater version of a branch merge. So when you've wandered away for some time, and you wish to come back home, you could easily a do a merge. But the sad old memories stay there, right? What if you could you magically have your memories (of your time of wandering away) wiped off. Well, I've got good news -- git rebase would do just that for you. So you come back home, and continue your life like the bad things never happened.
 
 
+If there are merge conflicts and I just want one version to overwrite the other, I'd do:
+		git checkout --ours <path> (this will choose the local changes)
+or
+		git checkout --theirs <path> (this will choose the remote changes)
+
+then finishing resolving the conflict as usual with:
+		git add <path>
+
+then commit with:
+		git commit
+
+
+
+Github
+-------
+	Git "gists" [gists.github.com] works essantially like some kind of pastebin. Code snippets or specific parts of work or projects can be posted there. The posted content can easily be shared, e.g on IRC
 
 
 =====================================

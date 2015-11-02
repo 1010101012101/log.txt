@@ -201,6 +201,7 @@ Terminator HotKeys
 SublimeText Editor
 ===================================
 	ctrl+shft+A				# select whole block surrounded by the currently selected tag
+	ctrl+shft+alt+F		# format selected html code
 
 
 
@@ -234,3 +235,16 @@ Hexchat settings:
 	/set
 	/set irc_auto_rejoin ON					# makes you auto-rejoin if you're kicked
 
+
+
+
+===================================
+IRC
+===================================
+Grant read/write permission to drive partition formatted as root:
+	$ sudo chmod a+rw /drive/mount/point
+
+
+
+08028450424 - aghadaigho
+08058468153 - tenant 2

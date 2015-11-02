@@ -38,3 +38,6 @@ Git practice:
 
 Gedit
 ====================================================
+
+
+MS SQL-Server (CTEs) study

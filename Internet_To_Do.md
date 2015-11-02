@@ -5,7 +5,8 @@ git:
 
 ===========================================================================================================================================================
 ===========================================================================================================================================================
-
+ubuntu:python::sudo apt-get install python-dev
+download::http://git-cola.github.io/downloads.html - Git Cola, a GUI client for Git on Linux
 download::https://update.gitter.im/linux64/latest - Linux app for Gitter (Git chatroom app)
 httrack:book:foss::http://www.oreilly.com/openbook/freedom/ - Free as in Freedom by Richard M. Stallman (RSM)
 httrack:tutorial::http://www.w3schools.com/bootstrap/default.asp

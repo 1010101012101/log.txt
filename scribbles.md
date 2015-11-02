@@ -278,7 +278,7 @@ Even though I had said that without expecting to be taken serious, I was taken b
 
 I did send the curriculum vitae but not until almost a week afterwards after his incessant calls for me to do so. Lo I received a call from the headquarters informing me of a scheduled interview two days from the time.
 
-Thursday the 3rd of September, there I was sitting amongst 4 other applicants whom I'd assess as being better edged than myself viz-a-viz paper qualifications.
+Thursday the 3rd of September, there I was sitting amongst 4 other applicants whom I had assesses as being better edged than myself viz-a-viz paper qualifications.
 
 
 ================#####=================
@@ -422,38 +422,38 @@ Have we used an optimized algorithm versus an approach based on exhaustive enume
 
 
 ================#####=================
-Yesterday, I had a prototypical  pitch of AFraisr at a prototypical MMS competition.
+Yesterday, I had a prototypical pitch of AFraisr at a prototypical MMS competition.
 
 Well, the preparations had been going on for months, but the real event took place yesterday.
 
-In what would be a rather disappointing decision on my path. I pre-released the app to a minified audience. In teuth, this wasn't a move I made  unreluctantly. In fact, I made the decision at the VERY LAST MINUTE.
+In what would be a rather disappointing decision on my path, I pre-released the app to a miniature audience. In truth, this wasn't a move I made unreluctantly. In fact, I made the decision at the VERY LAST MINUTE.
 
 I had made some progress to the router app I was working on -- I'm still working on it -- but, carelessly failed to git-commit at certain important stages. That may not have been the main issue. Something of more importance was the fact that I had a poor GUI.
 
 My attempts to fix this resulted in uncontrollable/unresolveable bugs at the time. This ultimately led me to one saving grace: prematurely pitching AFraisr.
 
-Well, that ends the sordid bit of the tale. The good part begins with the fact that the presentation went better than I had expected, even though I had obscured some parts of the app from the intrigued audience.
-
-What followed was questions that indicated the "noobness" of the audience to rhe concept of crowdfunding or even a crowdfunding platform.
+Well, that ends the sordid bit of the tale. The good part begins with the fact that the presentation went better than I had expected even though I had obscured some parts of the app from the intrigued audience. What followed was a series of questions that indicated the "noobness" of the audience to the concept of crowdfunding or even a crowdfunding platform.
 
 Having done the pitch without consent from the rest of my team, I was now under the onus to apologise for my actions, which I consequently did.
 
-That part went well as well. But "what comes afterwards?" becomes the big question. AFraisr has taken its firsy peep into the world. How would it be treated by a much broader audience? In about a month from now which is the prototype launch time-goal we have set for ourselves, we might get a peek into the answers to these questions.
+That part went well as well. But "what comes afterwards?" becomes the big question. AFraisr has taken its first peep into the world. How would it be treated by a much broader audience? In about a month from now which is the prototype launch time-goal we have set for ourselves, we might get a peek into the answers to these questions.
 
 In other events of the day, a face-off that was supposed to be the main activity for the day saw the SE students lock horns with NE students. The result? Obvious: the software guys were trumping. Truth be told though, it was an unevenly matched set of participants.
 
 
 ================#####=================
 
-I felt inclined to write this afyer [name here] swnte an A2A on gis question.  
+I felt inclined to write this after [name here] sent me a Quora A2A on this question.  
 
-So How do you go from novice to maestro on the fomputer?
+I'll paraphrase the query as "How do you go from novice to maestro on the computer?"
 
-You see, I can't tell you that. But I xan tell you avout my journey. I started out like every ither persin a complete noob.
+Actually, I can't tell you that because I'm have yet to attain become a master myself. However, I can share my experience with you.
 
-Intuitiveness is a powerful skill to posess. I say skill because, I find it surprisingly lacking in a number of people. Some people, out of fear, fail to try out any hunches, worse yet, some do not even border to think of possible workarounds for they are faced with. It is true that you can't fix everything, but you can't know that you can make some headways unless you try.
+I started out like every other person, a complete noob! In my opinion though, everyone is a noob at one thing or at one time or the other. The question I ask is, can one ever stop being noob? The simple answer is "no". I find myself being new at unfamiliar technology from time to time. Just over a few weeks ago, I was burgeoning user of a popular version control system, Git. When I joke about that now I say I have become ...; now living on "branches", frequently hopping from one to the other. After having used Git to manage my team's codebase for a while, I can't quite say the same for myself again. Who knows what technology I'll have to learn tomorrow: I know quite a few of them already.
 
-A very common habit with my IT end-users is that of wanting your hands to held while you walk along. Some people want you to turn on their computers for them. During a conversation with an acquaintance today -- a guy named Emeka (works at the Lagos Business School) -- Emeka told me of an experience where a client came complaining of a "not-working" computer. When he got to the PC in question, he found out that the power cable had been disconnected. Funny enough, the lady knew this, but had failed to simply connect the cable for fear of an electric shock. How pathetic can people be?
+Intuitiveness is a powerful skill to posess. I say 'skill' because, I find it is surprisingly lacking in a lot of IT users that I encounter. Some people, as a result of fear, fail to try out any hunches; worse yet, some do not even bother to think of possible workarounds for any technical issue they are faced with. On the technical side: of course, I do not expect you to go around fixing technical hitch if you lack the necessary expertise, notwithstanding, you are not debarred from one or two troubleshootings.
+
+A very common habit with many IT end-users is that of "wanting your hands to be held while you walk along". Some folks would even prefer to have someone turn on their computers for them. During a conversation with an acquaintance a few weeks ago -- a guy named Emeka (works at the Lagos Business School) -- Emeka told me of an experience where a client came complaining of a "not-working" computer. When he got to the PC in question, he found out that the power cable had been disconnected. Funny enough, the lady knew this, but had failed to simply connect the cable for fear of an electric shock. How pathetic can people be?
 
 So you think you want to be good with computers? Then you must first take off your garment of fear, and come in to taking daring things. In IT, you must be ready to tinker with a lot of things. A bulk of what I know was learnt that way.
 

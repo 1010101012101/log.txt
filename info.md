@@ -22,12 +22,22 @@ If you have a more UI-oriented setup, your:
 GIT Repos:
 ===============================================================================
 My local git repos:
-	- ~/dev/web_dev/flask_web_dev/practice/flask_learn/template_app
-	- ~/log_things_I_do
-	- ~/dev/python_dev/workspace/python_class
-	- ~/niit
-	- ~/dev 																													
-	- ~/dev/web_dev/flask_web_dev/proj/krohx_proj/afraisr												# not hosted on Github yet
-	- ~/dev/web_dev/flask_web_dev/proj/krohx_proj/router												# not hosted on Github yet
+											Key:
+												[G] Remote hosted on remote Github
+												[G] Remote hosted on remote Bitbucket
+												[N] Remote NOT hosted online
 	
-
+	[G] - ~/log_things_I_do/
+	[G] - ~/niit/
+	[G] - ~/dev/
+	[G] - ~/dev/python_dev/
+	[G] - ~/dev/python_dev/workspace/python_class/
+	[B] - ~/dev/web_dev/flask_web_dev/proj/krohx_proj/afraisr/
+	[B] - ~/dev/web_dev/flask_web_dev/proj/krohx_proj/router/
+	[B] - ~/dev/web_dev/flask_web_dev/proj/staple_travel_center/mlm_proj/
+	[B] - ~/dev/web_dev/flask_web_dev/proj/sancta_crux/sancta_crux/
+	[B] - ~/dev/web_dev/flask_web_dev/proj/krohx_proj/jobnownow/
+	[B] - ~/dev/web_dev/flask_web_dev/proj/his_system/his_system/
+	[G] - ~/dev/web_dev/flask_web_dev/practice/flask_learn/template_app/
+	[G] - ~/dev/web_dev/flask_web_dev/proj/fork_flask_hms/
+	[G] - ~/dev/blog/

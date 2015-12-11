@@ -48,4 +48,6 @@ tac:choir:songs::prepare songs for medley against service of songs
 #niit:faculty::Write code for static function call counter for students
 fix::Clipboard manager issue with the LXDE environment
 laundry:howto::how do I Properly wash my hoodie?
+project:dev:router:app::Indicate BRT pickup points in app
+resume::to Mum
 ::

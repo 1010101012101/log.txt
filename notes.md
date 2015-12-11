@@ -110,6 +110,9 @@ git
 	Push changes to a remote git repo:
 		- git push -u origin master
 	
+	Force-push (overwrite) changes to a remote git repo:
+		- git push -u [remote_name] [remote_branch]
+	
 ====STUDYING GIT====
 - The name of a branch is an alias for the most recent commit on that branch.
 - A tag-name alias much like the branch alias names a commit. However, while a branch alias changes everytime a new commit is cheked in to a branch, a tag alias never changes.

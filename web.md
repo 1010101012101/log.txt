@@ -13,4 +13,12 @@ bookmark:python:book::http://effbot.org/ - Lots of resources for Python (article
 resource:bookmark::https://github.com/aporter/coursera-android
 bookmark:howto:irc:freenode::https://blog.freenode.net/2008/04/registering-a-channel-on-freenode/ - How to Register a Channel on the IRC Freenode Server/Network
 bookmark:typing:keyboard::http://typing-speed-test.aoeu.eu/?lang=en - Take a typing speed test
+bookmark:programming:essay::http://norvig.com/21-days.html - Teach Yourself Programming in Ten Years
+bookmark:programming:python::http://www.dabeaz.com/blog.html
+bookmark:programming:python::http://norvig.com/sudoku.html
+bookmark:programming:python::https://github.com/vinta/awesome-python
+bookmark:programming:python:flask::http://github.com/realpython/discover-flask
+bookmark:programming:python::http://fullstackpython.com/
+bookmark:programming:python::http://realpython.com/
+bookmark:programming:python:flask:book::https://exploreflask.com/
 ::

@@ -1,4 +1,6 @@
 http://qr.ae/QPPAw
+
+
 ================#####=================
 There is a contest
 My mind is the ring
@@ -213,16 +215,25 @@ Or from hearing people talk
 
 I need facts not fiction
 I need stats not predictions
+
+
 ================#####=================
 
 Failure is an important ingredient for success
+
+
 ================#####=================
 "Two worlds: One in me; one I'm in"
+
+
 ================#####=============
 Life is a lab; fact is we're all just experimenting
+
+
 ================#####=================
 
 ** Old folks and paranoia
+
 
 ================#####=================
 
@@ -265,6 +276,7 @@ To ease things up a bit, I have decided to use my programming prowess to create 
 
 In my usual wandering around the web, I stumbled upon a tool that makes the process of file conflicts resolution seem like sugar. This tool goes by the name "Meld". And guess what, it's written in Python. No joke: since discovering this tool, I have anticipated more and more merge conflicts in dealing with version controlling. It's just such a neat process to be able to look at two or three more files that are paradoxically both similar and dissimilar and be able to sync their contents by hand so fluidly.
 
+
 ================#####=================
 
 
@@ -278,7 +290,7 @@ Even though I had said that without expecting to be taken serious, I was taken b
 
 I did send the curriculum vitae but not until almost a week afterwards after his incessant calls for me to do so. Lo I received a call from the headquarters informing me of a scheduled interview two days from the time.
 
-Thursday the 3rd of September, there I was sitting amongst 4 other applicants whom I had assesses as being better edged than myself viz-a-viz paper qualifications.
+Thursday the 3rd of September, there I was sitting amongst 4 other applicants whom I had assessed as being better edged than myself viz-a-viz paper qualifications.
 
 
 ================#####=================
@@ -299,6 +311,7 @@ This is how I plan to bounce back and I hope you understand my rationale. Of cou
 
 Overall, my aim is to overcome procrastination, but I also know it won't come easy. Everyday activities: school, work, church, working on personal projects, family and commuting, for me, are the usual competitors for my time. I have yet to come up with a strategy to qualitatively manage my time. So if you have any suggestions on that as well, kindly drop them in the comment box that lives just below here.
 
+
 ================#####=================
 
 
@@ -317,9 +330,11 @@ Thinking about leadership, I feel the first task every "boss" should embark upon
 
 The general state of our public vehicles show thay the motorists have a flawed perception that vehicles used for transportation should not be properly maintained.
 
+
 ================#####=================
 
 Can we have more ways to indulge our uneducated youths? I think while we seek how we can provide employments for the educated populace, we should also put their uneducated counterparts in "gainful busyness". This would drastically reduce crime rates in my opinion.
+
 
 ================#####=================
 
@@ -332,14 +347,17 @@ I will try to find out how markdown differs from rst.
 
 How can we get people to be more committed to their jobs? How can people find dignity in their jobs?
 
+
 ================#####=================
 
 9.9.2015
 After a class today, Mr Jeffrey  (an NIIT marketing staff) who had sat through the class told me he observed that I was strict with the students. This confirms my thoughts with regards to me having a disciplinary demeanour.
 
+
 ================#####=================
 
 PyClass days 1,2,3
+
 
 ================#####=================
 
@@ -386,12 +404,14 @@ Within the last two weeks, I have created several repositories within my Linux m
 [1] Link to my Github repos:
 Takwas on Gihub - Click on the "Sources" tab to see my the repos that were actually created by me as opposed to the forked ones.
 
+
 ================#####=================
 Raised with a silver spoon
 
 Although born in one of the most awkward ways known to man, Mark's birth wasn't a totally strange one. His mnother had been squatting on a pit laterine when providence had it that he had reached his destination after a rather long journey of nine months. Yes he had gotten to his destination, but his timimg was awfully near-fatal as he only managed to stay atop the laterine by the help of his slightly big head, which held him back from falling with the rest of his mother's faeces.
 
 Life definitely had more surprises for this creature as he wasn't going be greeted with a warm life afterall.
+
 
 ================#####=================
 What Project are you working on?
@@ -419,6 +439,10 @@ I like to think that "data is gold". Google uses crowdsourced information to imp
 This project is still in its first phase. We will improve upon it, and get it much closer to the users by putting the app on their smartphones.
 
 Have we used an optimized algorithm versus an approach based on exhaustive enumeration?
+
+I saw an incompleteness im the Google map and a need for the man.
+
+How often do you turn on data?
 
 
 ================#####=================
@@ -473,8 +497,84 @@ Think of an automatic shift car and a manual shift one. We know that a gear and 
 
 In the manual shift vehicle, you have public access to both the gear and the clutch. However, the automatic shift machine only gives you access to the "gear method", thereby encapsulating the the "clutch method".
 
+
 ================#####=================
+Success is being confident enough to press Ctrl + Alt + Del at any.point in life.
+
+If you're confident you can restart and do it all again, then you're successful.
+
+
 ================#####=================
+10.15.2015
+Got a book today: " The President, The Pope, and the Prime Minister" (#800 for #500)
+
+As usual, I got talking with the book vendor and we highlighted on a few issues. It turns out we had both missed choir rehearsal sessions in our respective churches. I was happy to end the conversation with both of us encouraging each other as Christians.
+
+
 ================#####=================
+Using the distraction-free mode of Sublime has definitely been a plus to my productivity. However, I noticed something weird about this mode. After a couple of saves, the application appears to become frozen. At first I thought this was caused by an incompatible/buggy plugin, but I thought wrong.
+
+My approach to solving the problem was to fire up my terminal and type:
+		$ killall sublime_text
+This fix did it in a brute force way, so I had to restart the application all the time. However, a few days ago, I noticed the 
+
+
+================#####=================
+
+Practice.
+Compelled to write this after the experience I've had in the last few days. When you learn to program, you often come across statements that encourage you to "learn by doing".
+
+Programming is a very practical field. Up until now, I had carried this principle everywhere with me -- in fact, preached it -- but hadn't really made effective use of it.
+
+The thing about learning languages (or technologies) by reading big manuals is that often times, beginners will approach the process like they would any other literature book. But that is clearly a wrong approach as empirical evidence points out. You don't read this things to simply stomach them. Instead, you swallow and then post-process. In essence, you ruminate over stuff.
+
+So how is this related to the topic of this piece, you may ask. In truth, the only way you can really process what you read is to try things out and see results for yourself.
+
+In the previous week, while building an app, I visited IRC frequently to ask questions about just about everything that was unclear to me. While this is good to an extent, getting in the habit of this would eventually piss off the good people in those channels. This was the sort of thing that happened to me.
+
+What did I learn from that? Do your own research. It's so easy to skip this part, but if you make efforts at finding things out for yourself, you'll be surprised at how much you can dig out without having to bug people. This does not mean that even the few important questions you'll ask may not be met with hostility. Do jot let this discourage you. The people who appear to be unwelcoming are doing so only as a way to discourage you from being over dependent on the channel.
+
+Personally, I like to answer questions and help put people on track. Nonetheless, if the queries get to overwhelming -- especially coming from the same person -- one will eventually lose interest in answering questions.
+
+Let me remind you of some tidbits / etiquettes of IRC:
+  -- Construct your questions well (concise, well written and straight-to-the-point questions are more likely to attract help)
+
+  -- Don't be too respectful. Yes, dont be too respectful -- cut all the 'Sirs' -- only be moderately polite. I know this seems like a lot to translate, but you'll figure it out.
+
+-- Don't post code in a channel. <Pastebin> it and share the link in the channel instead. While at it, don't post your entire code (unless you specifically need to). Post only the relevant portion -- the one you have an issue with.
+
+-- This is entirely my opinion but it's also based on what I have observed. Don't just be a [word here] , try to contribute to the community. Give answers to some simple questions others would ask. While at it, ensure you have and use a registered nick. This gives you an identity.
+
+-- 
+
+Read the documentation. Yes, this seems like a lot of work, but it's often easily overlooked how much you can truly understand by doing this. It's one of those things that I got tangled with in the previous week myself.
+
+The IRC folks kept referring me to the docs as there almost always already exists an explanation for what you might be facing.
+
+Then it's also good to read the "source". This cannot be overemphasised. When something is open sourced, it's not done just for fun.
+
+
+
+Working with Sublime Text
+
+My work in recent in months has been entirely in the Sublime Text environment.
+
+I find it a very neat tool, which can also easily become frustrating if you don't manage it well. Therefore I have a gew tips that I think can make your general workflow with this tool a smooth ride.
+
+Sublime Text is highly customisable. You can make a lot of configuration changes -- JSON style, and you can download a ton of useful plugins (thanks to the Open Source community that surrounds it. So this is a particularly interesting point given that Sublime Text itself is not an open source although there have been efforts by devs out there  to mock the application. I know of Lime Text.
+
+First off, use only the plugins you truly use. Installing so many plugins whilst being limited by hardware is one of the ways to make the software become displeased with you. It begins to throw tantrums.
+
+Having so many of these installed could easily make it begin to lag and you don't want anything interrupting your workflow.
+
+I decided to use the power of Sublime's configurations and came up with a way to truly work distractionless.
+
+Use the following keystrokes to swith between different views more easily:
+  -- ALT SHIFT T (Toggle tab visibility)
+  -- ALT SHIFT S (Toggle Sidebar visibility)
+  -- ALT SHIFT D (Toggle between Distraction-Free mode and normal mode)
+  -- ALT SHIFT M (Toggle MenuBar visibility)
+
+
 ================#####=================
 ================#####=================

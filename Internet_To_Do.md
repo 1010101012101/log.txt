@@ -5,6 +5,41 @@ git:
 
 ===========================================================================================================================================================
 ===========================================================================================================================================================
+download::https://www.youtube.com/watch?v=WfpFUmV1d0w&list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM&feature=share
+download::https://www.youtube.com/watch?v=5pZVqBFtuLk
+download::https://www.youtube.com/watch?v=KOvgfbBFZxk
+download::https://www.youtube.com/watch?v=6CeXt62Dt2A
+download::https://www.youtube.com/watch?v=o9pEzgHorH0
+download::https://www.youtube.com/watch?v=YhqsjUUHj6g
+download::https://www.youtube.com/watch?v=7YcW25PHnAA
+download::https://www.youtube.com/watch?v=YCcAE2SCQ6k
+download::https://www.youtube.com/watch?v=DbPDraCYju8&list=PLoYCgNOIyGAB0_YBfdNP5oqAD98HtAQqL&index=4
+download::https://www.youtube.com/watch?v=pGYAg7TMmp0&list=PLoYCgNOIyGAB0_YBfdNP5oqAD98HtAQqL&index=13
+download::https://www.youtube.com/watch?v=JBtWxj9l7zM&list=PLoYCgNOIyGAB0_YBfdNP5oqAD98HtAQqL&index=14
+download::https://www.youtube.com/watch?v=vO1kr8-Fwoc&list=PLrXy2un6mO1sop1lvP7YpwNWnje8ggzxx
+download::https://www.youtube.com/watch?v=FueU3sehY_4
+download::https://www.youtube.com/watch?v=yW0cK3IxlHc
+download::https://www.youtube.com/watch?v=nyu5ZxGUfgs
+download::https://www.youtube.com/watch?v=llpr5924N7E
+download::https://www.youtube.com/watch?v=gT6il5fJyAs
+download::https://www.youtube.com/watch?v=ynj1RIZAddw
+download::https://www.youtube.com/watch?v=FxSsnHeWQBY
+download::https://www.youtube.com/watch?v=_AEJHKGk9ns
+download::https://www.youtube.com/watch?v=px_vg9Far1Y
+download::https://www.youtube.com/watch?v=eLPiPHr6TVI
+download::https://www.youtube.com/watch?v=4fzAMdLKC5k
+download::https://www.youtube.com/watch?v=a9GzDZB5VeU
+download::https://www.youtube.com/watch?v=P141KRbxVKc
+download::https://www.youtube.com/watch?v=Lb3qn92Mf3s&list=PLzXCr8ZOzobe60Z29JWpJvSbv-ezH_Ulj
+download::https://www.youtube.com/watch?v=vhsDuZwmjEc
+download::https://www.youtube.com/watch?v=RsQ1tFLwldY&list=PLcemqpJ7enQ0g3jUzVngqPFesSvgsJ4vK
+download::https://www.youtube.com/watch?v=BcaqdXh566E
+ubuntu:python::sudo apt-get install python-dev
+download::http://git-cola.github.io/downloads.html - Git Cola, a GUI client for Git on Linux
+download::https://update.gitter.im/linux64/latest - Linux app for Gitter (Git chatroom app)
+httrack:book:foss::http://www.oreilly.com/openbook/freedom/ - Free as in Freedom by Richard M. Stallman (RSM)
+httrack:tutorial::http://www.w3schools.com/bootstrap/default.asp
+httrack:website::Mozilla Developer Network
 ubuntu:python::sudo apt-get install python-dev
 download::http://git-cola.github.io/downloads.html - Git Cola, a GUI client for Git on Linux
 download::https://update.gitter.im/linux64/latest - Linux app for Gitter (Git chatroom app)

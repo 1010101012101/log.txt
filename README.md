@@ -1,11 +1,11 @@
 # log.txt
 
-Note to *Self*: **Remember** to gitignore files containing sensitive info!  
-
-Kindly follow my penned thoughts here:      https://meekgeek.quora.com/ ( for short: http://qr.ae/QPPAw )
+This is a store for my text files.
 
 
-A store for my text files.
+**Note to *Self***: **Remember** to gitignore files containing sensitive info!  
+
+
 
 TODO Files Syntax:
   + Each line contains a task
@@ -15,11 +15,9 @@ TODO Files Syntax:
 
 File "notes" contains different things I learn as I go on.  
 
-File "web" is for bookmarks. also uses tags.  
+File "web" is for bookmarks. also uses tags.
 
 
-             V
-
-     http://qr.ae/QPPAw
-
-             ^
+                                                             V
+    Kindly follow my penned thoughts here:      https://meekgeek.quora.com/
+                                                             ^

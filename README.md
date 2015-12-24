@@ -20,5 +20,5 @@ File "web" is for bookmarks. also uses tags.
 
 
                                                              V
-    Kindly follow my penned thoughts here:      https://meekgeek.quora.com/
+    Kindly follow my penned thoughts here:      https://takwas.github.io/
                                                              ^

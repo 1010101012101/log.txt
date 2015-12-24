@@ -41,3 +41,4 @@ My local git repos:
 	[G] - ~/dev/web_dev/flask_web_dev/practice/flask_learn/template_app/
 	[G] - ~/dev/web_dev/flask_web_dev/proj/fork_flask_hms/
 	[G] - ~/dev/blog/
+	[B] - ~/.config

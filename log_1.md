@@ -241,10 +241,18 @@ Hexchat settings:
 ===================================
 IRC
 ===================================
+
 Grant read/write permission to drive partition formatted as root:
 	$ sudo chmod a+rw /drive/mount/point
 
 
 
-08028450424 - aghadaigho
-08058468153 - tenant 2
+
+
+
+
+=====================
+Downloading a Website
+=====================
+
+	`$ wget --continue -r -U Mozilla http://`

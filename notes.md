@@ -1,6 +1,6 @@
-=====================================================================================
+=====
 LINUX
-=====================================================================================
+=====
 
 	.		refers to current directory
 	..		refers to parent directory
@@ -26,7 +26,7 @@ To search for all files in a folder, use the '*' wildcard character as file-to-s
 	-d [ACTION] OR --directories=[ACTION] 					# e.g ACTION can be 'recurse' to search directories recursively
 	-r OR --recursive													# same as "-d recurse" above
 
-=====================================================================================
+=====================================
 
 Useful commands [with some commonly used options]:
 	ls -d							# list directories without showing their contents
@@ -34,7 +34,9 @@ Useful commands [with some commonly used options]:
 	ls -R							# list directories recursively
 	
 
-=====================================================================================
+#  
+
+=====================================
 
 Working with links:
 	ln -s /path/to/original/ /path/to/linkName				# create a symbolic (soft) link to the original path/file
@@ -57,7 +59,9 @@ Basic differences between soft and hard links:
 		- Links will NOT reference the file anymore if it is moved
 		- Links reference abstract filenames/directories and NOT physical locations. They are given their own inode
 
-=====================================================================================
+#  
+
+=====================================
 
 Use the 'sed' program/filter to make changes to files without launching a text editor. The changes are made right from the command line.
 An example:
@@ -66,16 +70,21 @@ A common error is to forget to include the trailing forward slash which results 
 	" sed: -e expression #1, char 14: unterminated `s' command "
 
 
-=====================================================================================
+#  
+
+=====================================
 Configure Auto-startup
 
 The /etc/rc.d/boot.local or /etc/rc.local scripts are Bash scripts that can be edited to include command-line instructions to run desired programs on system startup.
 
 
 
-=====================================================================================
-Python:
-=====================================================================================
+
+
+
+======
+PYTHON
+======
 
 'assert' statements are used to test the truethiness of statements:
 	if the expression being tested is True, nothing happens, the program continues as normal;
@@ -104,9 +113,11 @@ Some sample strings which match the above regexp:
 
 
 
-=====================================
-git
-=====================================
+
+
+===
+GIT
+===
 	Push changes to a remote git repo:
 		- git push -u origin master
 	
@@ -192,14 +203,27 @@ then commit with:
 
 
 
+
+
+
+
+
+======
 Github
--------
-	Git "gists" [gists.github.com] works essantially like some kind of pastebin. Code snippets or specific parts of work or projects can be posted there. The posted content can easily be shared, e.g on IRC
+======
+	
+	Github "gists" [gists.github.com] works essantially like some kind of pastebin. Code snippets or specific parts of work or projects can be posted there. The posted content can easily be shared, e.g on IRC
 
 
-=====================================
-Life tips
-=====================================
+
+
+
+
+
+
+=========
+LIFE TIPS
+=========
  - Listen to smalltalk
  - Get a mentor / coach
  - Define purpose before jumping ship
@@ -209,6 +233,37 @@ A mentor will push you beyond your imagined capabilities
 
 
 
-=====================================
-Piano Lessons with Samuel Ajose
-=====================================
+
+
+
+
+
+=======================
+MAILING LIST ETIQUETTES
+=======================
+
+I went through a list mailing list proper conduct checklist. This is how I paraphrase the basic rules.
+
+    - Do your research before asking.
+
+    - Keep the message short enough.
+
+    - Don't post code or some log output. (Pastebin it, and post a link to it instead).
+
+    - Don't include attachments in your message. (Host it elsewhere, and post a link to it instead)
+
+    - Don't send HTML formatted email; stick with plain text.
+
+    - Start your messgage under a new subject if the topic is new. If it belongs to a previously existing topic, then post your new message as a "reply" to that existing thread.
+
+    - Use a clear, concise and in-context subject line.
+
+    - Use bottom, interleaved posting instead of top-posting. For bottom-posting, let your reply appear directly below the message you are replying to, and trim off the irrelevant parts of the message. When responding to several messages in one mail, use interleaved posting; put your response to each message below the corresponding message. (Some email softwares would prepend each line of the message you are responding to with a '> ').
+
+    - Avoid cross-posting. Do not CC multiple lists with the same message.
+
+    - Use short messages in your signature. And avoid huge disclaimer messages.
+
+    - Avoid repetitive posting.
+
+    - Be polite, use proper language. Avoid using uppercase letters unnecessarily, so you don't appear to be shouting at your readers.

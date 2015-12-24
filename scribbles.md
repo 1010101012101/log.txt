@@ -338,6 +338,21 @@ Can we have more ways to indulge our uneducated youths? I think while we seek ho
 
 ================#####=================
 
+
+# The Developer Arsenal
+
+Every programmer should possess certain skills. These skills are language-agnostic.
+
+- GIT
+- Markdown
+- RST
+- SSH
+- FTP
+- Bash (or some other shell)
+
+
+Keep a history of your workflow with __Git__.
+
 The syntax for Markdown is something I started looking at (again) last night, having looked at it sometime ago. It's really easy to learn, especially when compared with HTML. I feel every programmer who might want to learn to write its syntax should make it their constant way of writing any plain text notes. It doesn't really get in the way of the content, so reading won't be a hassle.
 
 I will try to find out how markdown differs from rst.
@@ -406,6 +421,8 @@ Takwas on Gihub - Click on the "Sources" tab to see my the repos that were actua
 
 
 ================#####=================
+
+
 Raised with a silver spoon
 
 Although born in one of the most awkward ways known to man, Mark's birth wasn't a totally strange one. His mnother had been squatting on a pit laterine when providence had it that he had reached his destination after a rather long journey of nine months. Yes he had gotten to his destination, but his timimg was awfully near-fatal as he only managed to stay atop the laterine by the help of his slightly big head, which held him back from falling with the rest of his mother's faeces.
@@ -414,21 +431,29 @@ Life definitely had more surprises for this creature as he wasn't going be greet
 
 
 ================#####=================
-What Project are you working on?
--------------------------------------------
 
-Should you do a side project? Absolutely! That has to be a no brainer, right?
 
-It's the one question I have seen asked over and over again by potential employees/partners/ angel investors. You see, no one really cares about what you can do. What speaks volumes for you is what you have taken the pain to do.
+# What Project are you working on?
 
-If you're a startup, investors are not necessarily concerned about your viability -- even though they are to some extent. What matters the more is how your successes have level up against your failures -- yes failures do count as well, because that gives them a good overview of the strengths and weaknesses of your business.
 
-It's the same game that plays out in an interview room. As a developer, when people speak of experience, you shouldn't narrow your scope to just experience gotten from paid jobs. It is more important that you focus on how many challenges you have faced  [and overcome], and what lessons you've brought back home.
+> Should you do a side project? Absolutely! That has to be a no brainer, right?
 
-Take on frequent side projects -- it doesn't matter how big the project idea is, but try to see it to completion. 
+The topic of this piece is one question I have heard over and over again from all sorts of people: potential employers or investors or partners or even from my own inner voice.
+
+The truth is, no one really cares -- well, maybe a few people do -- about what you can do. As a developer, *your prowess is measured by your demonstrations rather than your potentials*. What speaks volumes for you is what you have taken the pain to do.
+
+Believe it or not, people care about what you have tried. For instance, if you're a startup, investors do not merely limit their concerns to your viability. What carries more weight is how your successes have levelled up against your failures -- indeed, failures do count as well, because that gives them a good overview of the strengths and weaknesses of your business/team.
+
+It's the same game that plays out in an interview room. As a developer, when potential employers speak of experience, you shouldn't narrow your scope to just experience gotten from 9 to 5 jobs. You should equally consider your personal projects: on how many challenges you have faced [and possibly overcome], and what lessons you've brought back home.
+
+You should develop the habit of frequently taking on side projects. Always have something you are working on on the side, outside of your regular routine; it doesn't matter how big or small the project idea may be, but __endeavour to see it to completion__. Completing it is key here. Although I am telling you this, it is worth noting that I have failed at this myself. I do have a few side-projects but because I fail to complete them to at least a _demoable_ stage, I am often unable to showcase any of them when the need arises.
+
+So start working on something today. If it is starting to become cumbersome, find someone to work on it with you. Better yet, open source it! There is a pool of hungry programmers out there, waiting to pounce on the next available interesting project.
 
 
 ================#####=================
+
+
 Points towards my forthcoming presentation at NIIT
 -------------------------------------------------------
 
@@ -446,6 +471,8 @@ How often do you turn on data?
 
 
 ================#####=================
+
+
 Yesterday, I had a prototypical pitch of AFraisr at a prototypical MMS competition.
 
 Well, the preparations had been going on for months, but the real event took place yesterday.
@@ -467,29 +494,42 @@ In other events of the day, a face-off that was supposed to be the main activity
 
 ================#####=================
 
-I felt inclined to write this after [name here] sent me a Quora A2A on this question.  
+
+I felt inclined to write this after [name here] sent me a Quora A2A on [this question]().  
 
 I'll paraphrase the query as "How do you go from novice to maestro on the computer?"
 
-Actually, I can't tell you that because I'm have yet to attain become a master myself. However, I can share my experience with you.
+Actually, I can't tell you that because I have yet to become a master myself. However, I can share my experience with you.
 
-I started out like every other person, a complete noob! In my opinion though, everyone is a noob at one thing or at one time or the other. The question I ask is, can one ever stop being noob? The simple answer is "no". I find myself being new at unfamiliar technology from time to time. Just over a few weeks ago, I was burgeoning user of a popular version control system, Git. When I joke about that now I say I have become ...; now living on "branches", frequently hopping from one to the other. After having used Git to manage my team's codebase for a while, I can't quite say the same for myself again. Who knows what technology I'll have to learn tomorrow: I know quite a few of them already.
+I started out like every other person, a complete noob! In my opinion though, everyone is a noob at one thing or at one time or the other. The question I ask is, can one ever stop being noob? The simple answer is "no". I find myself being new at unfamiliar technology from time to time. Only a few weeks ago, I was a beginning user of a popular version control system, Git. When I joke about that now I say I have become ...; now living on "branches", frequently hopping from one to the other. After having used Git to manage my team's codebase for a while, I can't quite say the same for myself again. Who knows what technology I'll have to learn tomorrow: I know quite a few of them already.
 
-Intuitiveness is a powerful skill to posess. I say 'skill' because, I find it is surprisingly lacking in a lot of IT users that I encounter. Some people, as a result of fear, fail to try out any hunches; worse yet, some do not even bother to think of possible workarounds for any technical issue they are faced with. On the technical side: of course, I do not expect you to go around fixing technical hitch if you lack the necessary expertise, notwithstanding, you are not debarred from one or two troubleshootings.
+Intuitiveness is a powerful skill to posess. I say 'skill' because, I find it is surprisingly lacking in a lot of IT users that I encounter. Some people, as a result of fear, fail to try out any hunches; worse yet, some do not even bother to think of possible workarounds for any technical issue they are faced with. Of course, I do not expect you to go around fixing technical hitches if you lack the necessary expertise, notwithstanding, you are not debarred from one or two troubleshooting attempts.
 
-A very common habit with many IT end-users is that of "wanting your hands to be held while you walk along". Some folks would even prefer to have someone turn on their computers for them. During a conversation with an acquaintance a few weeks ago -- a guy named Emeka (works at the Lagos Business School) -- Emeka told me of an experience where a client came complaining of a "not-working" computer. When he got to the PC in question, he found out that the power cable had been disconnected. Funny enough, the lady knew this, but had failed to simply connect the cable for fear of an electric shock. How pathetic can people be?
+A very common habit with many IT end-users is that of "wanting your hands to be held while you walk along". Some folks would even prefer to have someone turn on their computers for them, no joke. During a conversation with an acquaintance a few weeks ago, Emeka[1] told me of an experience where a client came complaining that her computer had stopped working. When he got to the PC in question, he found out that the power cable had been disconnected. Funny enough, the lady knew this, but had failed to re-connect the cable for fear of an electric shock. How pathetic can people be?
 
-So you think you want to be good with computers? Then you must first take off your garment of fear, and come in to taking daring things. In IT, you must be ready to tinker with a lot of things. A bulk of what I know was learnt that way.
+So you think you want to be good with computers? Then you must first take off your garment of fear, become intuitive, and try out your hunches. In IT, you must be ready to tinker with a lot of things. A bulk of what I know was learnt that way.
+
+
+
+
+
+__ __  
+
+[1] Chukwuemeka (works at the Lagos Business School)
 
 
 
 ================#####=================
+
+
 Analogy: Methods in OOP
 
 Think of a microwave oven, you have a button which you can set to different values (parameters). The button safely encapsulates the function/mechanism of warming your food. So you bother less about how the operation is carried out, and concentrate on setting the button right.
 
 
 ================#####=================
+
+
 Analogy: Private/Public "methods"
 
 (Emphasis on "methods" because I am not simply talking generally about "functions" or subroutines.)
@@ -499,73 +539,136 @@ In the manual shift vehicle, you have public access to both the gear and the clu
 
 
 ================#####=================
-Success is being confident enough to press Ctrl + Alt + Del at any.point in life.
+
+
+Success is being confident enough to press Ctrl + Alt + Del at any point in life.
 
 If you're confident you can restart and do it all again, then you're successful.
 
 
 ================#####=================
+
+
 10.15.2015
 Got a book today: " The President, The Pope, and the Prime Minister" (#800 for #500)
 
 As usual, I got talking with the book vendor and we highlighted on a few issues. It turns out we had both missed choir rehearsal sessions in our respective churches. I was happy to end the conversation with both of us encouraging each other as Christians.
 
 
-================#####=================
-Using the distraction-free mode of Sublime has definitely been a plus to my productivity. However, I noticed something weird about this mode. After a couple of saves, the application appears to become frozen. At first I thought this was caused by an incompatible/buggy plugin, but I thought wrong.
-
-My approach to solving the problem was to fire up my terminal and type:
-		$ killall sublime_text
-This fix did it in a brute force way, so I had to restart the application all the time. However, a few days ago, I noticed the 
 
 
 ================#####=================
 
-Practice.
-Compelled to write this after the experience I've had in the last few days. When you learn to program, you often come across statements that encourage you to "learn by doing".
 
-Programming is a very practical field. Up until now, I had carried this principle everywhere with me -- in fact, preached it -- but hadn't really made effective use of it.
+#To be Forearmed is to be Help-ready
 
-The thing about learning languages (or technologies) by reading big manuals is that often times, beginners will approach the process like they would any other literature book. But that is clearly a wrong approach as empirical evidence points out. You don't read this things to simply stomach them. Instead, you swallow and then post-process. In essence, you ruminate over stuff.
 
-So how is this related to the topic of this piece, you may ask. In truth, the only way you can really process what you read is to try things out and see results for yourself.
+###We'll Help You if You are Ready
 
-In the previous week, while building an app, I visited IRC frequently to ask questions about just about everything that was unclear to me. While this is good to an extent, getting in the habit of this would eventually piss off the good people in those channels. This was the sort of thing that happened to me.
 
-What did I learn from that? Do your own research. It's so easy to skip this part, but if you make efforts at finding things out for yourself, you'll be surprised at how much you can dig out without having to bug people. This does not mean that even the few important questions you'll ask may not be met with hostility. Do jot let this discourage you. The people who appear to be unwelcoming are doing so only as a way to discourage you from being over dependent on the channel.
+I felt compelled to write this after my personal experience trying to get help with my code on IRC.
 
-Personally, I like to answer questions and help put people on track. Nonetheless, if the queries get to overwhelming -- especially coming from the same person -- one will eventually lose interest in answering questions.
+We all love to make the computer do things exactly the way we want, so some of us choose to take the bold step of learning to communicate with the machine. And it is not uncommon to find many of our burgeoning kind go from *location to location on the web space* trying to get help along the way. We are prompt to ask questions when we sight help.  
+<br/>
+>When you learn to program, you are often encouraged to **learn by doing.**
+<br/>
 
-Let me remind you of some tidbits / etiquettes of IRC:
-  -- Construct your questions well (concise, well written and straight-to-the-point questions are more likely to attract help)
+The domain of computer programming or software development is a very practical one. Before now, I had carried this very principle everywhere with me -- in fact, preached it -- but hadn't really put it to use.
 
-  -- Don't be too respectful. Yes, dont be too respectful -- cut all the 'Sirs' -- only be moderately polite. I know this seems like a lot to translate, but you'll figure it out.
+The thing about learning languages (or technologies) by reading big manuals is that, often times, beginners will approach the process like they would any other literature book. But that is clearly a wrong approach as empirical evidence has shown. You don't read these things to simply stomach them. Instead, you swallow and then post-process. In essence, you ruminate over stuff.
 
--- Don't post code in a channel. <Pastebin> it and share the link in the channel instead. While at it, don't post your entire code (unless you specifically need to). Post only the relevant portion -- the one you have an issue with.
+>In truth, the only way you can really process what you read is to **try things out and see results for yourself**.
 
--- This is entirely my opinion but it's also based on what I have observed. Don't just be a [word here] , try to contribute to the community. Give answers to some simple questions others would ask. While at it, ensure you have and use a registered nick. This gives you an identity.
+Weeks ago, while building an app, I visited IRC frequently to ask questions on just about everything that was unclear to me. While this mode of communication and seeking help is encouraged, abuse of it is strongly discouraged. The good guys over on the IRC channels get pissed off when it appears you're boycotting available resources like documentation, preferring to be spoonfed the whole time. (Remember this is not [Quora](http://www.quora.com), where the philosophy is for you to ask more and more questions).
 
--- 
+This was the sort of thing that happened to me when I began _flooding_ the channels with my persistent querying. Most of the time the IRC folks kept pointing me to the documentation, as workarounds for most of the issues I had were already documented. A lot of things became much clearer when I decided to finally [read-the-docs](https://readthedocs.org/).
 
-Read the documentation. Yes, this seems like a lot of work, but it's often easily overlooked how much you can truly understand by doing this. It's one of those things that I got tangled with in the previous week myself.
+What did I learn from that? __"Do your own research!"__ It's so easy to skip this part, but if you make efforts at finding things out for yourself, you'll be surprised at how much you can dig out without having to bug people. However, this does not guarantee that even the few important questions you'll ask may not be met with hostility, but do not let that discourage you. The people who appear to be unwelcoming are doing so only as a way to discourage you from being over-dependent on the channel.
+Another advantage of finding things for yourself is that, you learn the __why__ and not just the __how__.
 
-The IRC folks kept referring me to the docs as there almost always already exists an explanation for what you might be facing.
+I think it's fair to quote [Armin Ronacher](http://lucumr.pocoo.org/about/) here,
 
-Then it's also good to read the "source". This cannot be overemphasised. When something is open sourced, it's not done just for fun.
+>"And it's not just asking questions; questioning other people, like what other people do or what you do yourself.
+
+>By far, the worst parts in all of my libraries are where I took the design from somewhere else. And it's not because I know better, it's because pretty much everything everybody does at any point in time has some sort of design decision behind it ... that major decision process.
+
+>So someone came up with a solution for a particular problem, and he thought about it and then wrote it down. But if you look at someone else's design, you might no longer understand why the decision was made in the first place. And ... in fact, if the original implementation is ten years old, who knows if the design ideas behind it are still entirely correct."
+  
+<br/>
+Personally, I like to answer questions and help put people on track. Nonetheless, if the queries got too overwhelming -- especially coming from the same person -- I would eventually lose interest in answering questions.
+
+<br/>
+Let me remind you of some __tidbits or etiquettes of IRC__:
+
+* Construct your questions well (concise, well written and straight-to-the-point questions are more likely to attract help)
+  
+  
+* Don't EVER post code in a channel! [Pastebin](https://en.wikipedia.org/wiki/Pastebin)__[1]__ it and share the link in the channel instead. While at it, don't post your entire code (unless you specifically need to). Post only the relevant portion -- the one you have an issue with. The only exception to this is if the snippet of code is considerably short, say one or two lines.
+
+  
+  
+* Don't be overly respectful. Yes, dont be too respectful -- _cut all the 'Sirs'_. Only be moderately polite.
+    
+  
+* Ensure you have and use a registered nick. This gives you an identity.
+
+  
+* This last one is entirely my opinion but it's also based on what I have observed. **Don't just be a leech, try to contribute to the community**. Answer questions when you can.
+
+<br/>
+
+So where do you look to before looking to IRC? There are three sources you may __read__ from before turning to internet-relay-chat for help:
+  
+* __Read the documentation__. * Documentation is the manual the creator or experts of a software product or tool provide their users with. So you want to know the ins and outs of a technology? That's the right place to look.
+  
+  
+* __Read blog posts__ related to your topic-area. Blog posts are often based on people's experiences, so you're likely to find help from there, especially if the writer has faced the same issue. Remember to `bookmark` the really helpful ones as you go ;).
+  
+  
+* Last and very important. __[Read the source code!](http://blog.codinghorror.com/learn-to-read-the-source-luke/)__. This is two-fold: First is actually looking into your own code carefully and seeing what syntax or semantic errors you might have made. Secondly, you look into the original code of libraries/frameworks you are using if they are open source, otherwise revert to documentation. With this, you have it all stripped to its bare bones. Point blank! The source code reveals everything you need to know, once you know how to read it.
+
+<br/>
+So why not arm yourself properly before going to post that question. That way, you would not only make it easier to get help [for yourself], but you would be better informed.
+
+<br/>
+__ __
+
+#####[1] Some Pastebin platforms I use:
+ - http://pastebin.com
+ - http://hastebin.com
+ - http://paste.ubuntu.com
+ - http://pastie.org
+ - http://paste.pocoo.org
+ - http://paste.pound-python.org
+ - http://paste.linux.chat
+
+Then [Github](http://github.com) provides a platform which supports version-controlled pastes: [Github Gists](http://gist.github/com).
+ 
+__Note:__ Because [Hastebin](http://hastebin.com) heavily depends on Javascript, some people have complained of text-rendering issues possibly arising from browser-compatibility issues with it. So take caution using it. That said, I love its ease-of-use. It supports the use of keyboard shortcuts such as `[Ctrl]+[S]` to __Save__.
+
+
+
+
+
+================#####=================
 
 
 
 Working with Sublime Text
 
-My work in recent in months has been entirely in the Sublime Text environment.
 
-I find it a very neat tool, which can also easily become frustrating if you don't manage it well. Therefore I have a gew tips that I think can make your general workflow with this tool a smooth ride.
 
-Sublime Text is highly customisable. You can make a lot of configuration changes -- JSON style, and you can download a ton of useful plugins (thanks to the Open Source community that surrounds it. So this is a particularly interesting point given that Sublime Text itself is not an open source although there have been efforts by devs out there  to mock the application. I know of Lime Text.
 
-First off, use only the plugins you truly use. Installing so many plugins whilst being limited by hardware is one of the ways to make the software become displeased with you. It begins to throw tantrums.
 
-Having so many of these installed could easily make it begin to lag and you don't want anything interrupting your workflow.
+My work in recent months has been entirely in the Sublime Text environment.
+
+I find it a very simplistic, neat and effective tool, which can also easily become frustrating if you don't manage it well. Therefore I have for you a few tips that can make your general workflow with this tool a smooth ride.
+
+Sublime Text is highly customisable. Firstly: Being JSON-formatted, configuration options can be tweaked pretty easily.
+
+Secondly, the open-source community has birthed a plethora of useful plugins, which in my opinion, just give you wings to fly. I find this particularly interesting because Sublime Text itself is not an open source software, although there have been efforts by developers out there to mock an open sourced version of the application. One major project being, [Lime Text]() -- insteresting name, I know ;).
+
+First off, __use what you need__. Installing so many plugins whilst being limited by hardware is one of the ways to make the software become displeased with you. It begins to throw tantrums. Trust me when I say you don't want to be faster than your text editor or IDE, having it intermittently  interrupt your workflow.
 
 I decided to use the power of Sublime's configurations and came up with a way to truly work distractionless.
 
@@ -576,5 +679,146 @@ Use the following keystrokes to swith between different views more easily:
   -- ALT SHIFT M (Toggle MenuBar visibility)
 
 
+
+
+Using the distraction-free mode of Sublime has definitely been a plus to my productivity. However, I noticed something weird about this mode. After a couple of saves, the application appears to become frozen. At first I thought this was caused by an incompatible/buggy plugin, but I thought wrong.
+
+My approach to solving the problem was to fire up my terminal and type:
+		$ killall sublime_text
+This fix did it in a brute force way, so I had to restart the application all the time. However, a few days ago, I noticed the 
+
+
+
 ================#####=================
+
+
+In Church
+
+
+It turns out "abundance" isn't about having more than your neighbour. It's means "having more than you have need for".
+
+
+================#####=================
+
+
+So tonight I got listening to podcasts as usual. At the time, I was simultaneously doing some laundry.
+
+I listened to about three podcasts: One from BBC Click, another from Startup, and the last from Ted Radio NPR podcast.
+
+BBC Click talked on digital publishing. I would have to listen to that again to write anything on it as I listened to it half-heartedly.
+
+Startup was a bit more enlightening. First a new term : Term Sheet -- which is often used in the context of "a potential investor handing you one". A term sheet is …
+
+That reminds me of another interesting term used in the entrepreneurial domain, which I learnt about sometime ago: "Burnout Capital". Burnout Capital is  …
+
+Also, the Startup podcast pointed out something really important about CEOs. And that is, "You must know your numbers." So you own a company; while that may earn you some bragging rights, you must understand that, you now have a big duty to tracking your metrics. If anyone woke you up in the middle of the [sub for 'night'], you should be able to articulate your projections clearly.
+
+NPR's podcast, although tagged differently, focused on one theme: Compassion. This was the subject that four separately interviewed guests talked about.
+
+On the subject of a name for my new blog, "Volatile Musings" was a good enough option, but something about it didn't feel right. I eventually went through a phases of rather quick name changes before arriving at the current one. I went from "Volatile Musings of Ace Takwas" to "reBLOGitations | ac3Takwas" drawing partial inspiration from [russ cox's site].
+
+reBLOGitations was intended as a pun on regurtitation, but that clearly had an eerie effect. I confess, I did bug the IRC rooms for feedbacks/suggestions on this one. Again, the negative responses prompted a change in the name, and I somehow ingeniously arrived at a somewhat unique naming style: acetakwas.log()
+
+On thing was certain, I did not want my full name to be obscure on the site, and I also wanted some promotion for my longtime alias: takwas or acetakwas.
+
+Now this name uses some JS syntax (for the name), and some Python syntax(for the clever tagline). This was intentional. I want to be seen as a language-agnostic programmer.
+
+
+
+================#####=================
+
+
+I have observed that speaking without keeping track -- there are ways to do this -- when compared to writing is not beneficial. You should talk less and write more.
+
+When you write, you can go back over what you've written as many times as possible. You can edit the content, before publishing, if you do. In contrast, you don't get these benefits with writing, except you record your speech and edit before playing before an audience. But this is of course, not very practiceable.
+
+
+================#####=================
+
+
+I have known Git for about three years, but something as simple as Git didn't begin to make actual sense to me until sometime in July this year when I was determined to actually learn and **use** it. I started using Git to version control my team's project.
+
+I also tried to understand it well enough to be able to not only persuade my co-developer colleague/teammate to use the tool, but to also teach it to him in as simplified an approach as I could muscle up.
+
+This is why I have become fond of telling people to stop learning for learning, but for usage. Are you thinking of learning a new programming language? If yes, then why not a take a moment and ask yourself a few questions. What would you do with this new skill? How does this new learning improve your work, life or activities. If you are unable to find answers to these wuestions, then you proobably wouldn't enjoy the learning experience and you most likely wouldn't keep your interest alive for long.
+
+
+================#####=================
+
+
+Two reasons to prepend your every message with the reciever's nick:
+
+	a. You get their attention.
+	b. Bots will thank you for doing so.
+
+
+================#####=================
+
+So on with the subject of a year end resolution.
+
+I decided to become more quiet. Goodness me, I just read a Quora answer that says, " you hear more when there's less noise." Needless to say, you hear more from within yourself, when you make less noise yourself.
+
+That's part of what got me finally started on this blog. And I'm glad I'm able to do one or two writings more frequently.
+
+I'm really hungry foe productivity, and I'm prepared to shed all unhelpful habits. I
+
+================#####=================
+
+The Journey of one night.
+
+================#####=================
+
+
+The Year End Resolution that Near-Failed.
+
+Now, while it's become almost cliched that a lot of folks would make resolutions at the inceptions of new seasons, I have done something that appears to be in stark contrast to what seems to be conventional.
+
+My year-end resolution was to become more taciturn than ever. Now, while I could boldly say I made some progress at the initial stage, it clearly wasn't going to continue that way.
+
+As days came in upon days, I started loosening my grip on this new decision. I became increasigly enthusiastic about my conversations, since they were often centered upon topics that resonate on technology.
+
+It's almost a new year, and I am bent on makeing this one a reality. I will confess it won't be a smooth ride, but I hope to get through with it.
+
+
+================#####=================
+
+
+Slack is very Configurable
+
+How I reset our Slack channels.
+
+Slack has paid and free versions, but the free one already comes with a ton of cool features, and is highly usable as is, especially for teams that are very small like mine. So we have stuck with this unpaid version of the application for a few months.
+
+Recently, we decided to have our clients join our slack team. This has some benefits:
+    - It would help us keep the client up-to-date on project progress
+    - It brings our clients to our preferred communication platform (So we have them all in one place)
+
+
+In doing this, we were presented with a small challenge. All our previous discussions had mostly being in the single, public, general channel. Some of these discussions obviously included stuff we would rather keep private. Even though the first client, had already signed up, I had to quicjly find a way to migrate -- I chose not to delete -- the messages in the hope that he had not scrolled back through the message log.
+
+Upon doing a quick surf around the Slack options, I discovered I could
+
+
+================#####=================
+
+
+# A Peek into Blueprints in Flask
+
+I know there are many useful tutorials that explain the concept of Blueprints in Flask, but I have decided to enlist another to the [sub for 'long list' avalanche] of resources already available.
+
+
+##First, why Blueprints?
+
+The Flask documentation says [somethings]() about Blueprints and why they are useful. I would like to highlight on one point from that page:
+
+> Provide template filters, static files, templates, and other utilities through blueprints. A blueprint does not have to implement applications or view functions.
+
+
+Using Blueprints just gives a straightforward way to think of structuring your application in terms of modules, although you are not limited to blueprints' modules alones; your app can of course contain other modules as you wish.
+
+I started looking for common patterns among blueprints, and I discovered that, a Blueprint can have among other things it's own set of view functions, with an optional URL prefix (configured using the `url_refix` parameter in the instantiation of a new Blueprint object).
+
+
+The simplest way to illustrate this in my opinion, is with the exanple of a web application that has different levels of users: regular users, moderators and administrators.
+
 ================#####=================

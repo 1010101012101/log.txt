@@ -202,6 +202,19 @@ then commit with:
 		git commit
 
 
+Git Submodules is a feature that allows you have git repositories be contained in parent git repositories.
+
+To add a child repo. From within the root of the parent repo, do:
+	git submodule add [URL_TO_GIT_REPO]
+This adds a new config file to the root of the parent directory named ".gitmodules". This file, like ".gitignore" should also be version-controlled. It contains a mapping of the submodul repos to their respective remote repo URLs.
+
+To clone an online repo which contains submodules alognside it s submodules, do:
+	git clone --recursive [URL_TO_PARENT_GIT_REPO]
+
+
+
+
+
 
 
 
@@ -267,3 +280,22 @@ I went through a list mailing list proper conduct checklist. This is how I parap
     - Avoid repetitive posting.
 
     - Be polite, use proper language. Avoid using uppercase letters unnecessarily, so you don't appear to be shouting at your readers.
+
+
+
+
+
+
+====
+JAVA
+====
+
+Learning about Strings
+
+Java implements three basic string types: String, StringBuilder, and StringBuffer. Emphasis is placed on the first two as they are the more commonly used ones.
+
+The most basic difference between the Java String class and the Java String Builder class is the fact that the String class which defines the primitive String datatype is immutable, while StringBuilder is mutable.
+
+Immutability results improves program performance.
+
+Java has a [constant] String pool in which it tracks all the String objects it creates in the program run cycle. If a new String is created by simple assignment to a quoted string of characters, Java looks up the string pool, to reuse any already existing string that matches the new string, otherwise, it creates a new String and adds it to the String pool.

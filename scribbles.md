@@ -433,14 +433,16 @@ Life definitely had more surprises for this creature as he wasn't going be greet
 ================#####=================
 
 
-# What Project are you working on?
+What Project are you working on?
+-------------------------------------------
 
-
-> Should you do a side project? Absolutely! That has to be a no brainer, right?
+Should you do a side project? Absolutely! That has to be a no brainer, right?
 
 The topic of this piece is one question I have heard over and over again from all sorts of people: potential employers or investors or partners or even from my own inner voice.
 
 The truth is, no one really cares -- well, maybe a few people do -- about what you can do. As a developer, *your prowess is measured by your demonstrations rather than your potentials*. What speaks volumes for you is what you have taken the pain to do.
+
+
 
 Believe it or not, people care about what you have tried. For instance, if you're a startup, investors do not merely limit their concerns to your viability. What carries more weight is how your successes have levelled up against your failures -- indeed, failures do count as well, because that gives them a good overview of the strengths and weaknesses of your business/team.
 
@@ -513,6 +515,8 @@ So you think you want to be good with computers? Then you must first take off yo
 
 
 
+
+
 __ __  
 
 [1] Chukwuemeka (works at the Lagos Business School)
@@ -577,7 +581,9 @@ The domain of computer programming or software development is a very practical o
 
 The thing about learning languages (or technologies) by reading big manuals is that, often times, beginners will approach the process like they would any other literature book. But that is clearly a wrong approach as empirical evidence has shown. You don't read these things to simply stomach them. Instead, you swallow and then post-process. In essence, you ruminate over stuff.
 
+<br/>
 >In truth, the only way you can really process what you read is to **try things out and see results for yourself**.
+<br/>
 
 Weeks ago, while building an app, I visited IRC frequently to ask questions on just about everything that was unclear to me. While this mode of communication and seeking help is encouraged, abuse of it is strongly discouraged. The good guys over on the IRC channels get pissed off when it appears you're boycotting available resources like documentation, preferring to be spoonfed the whole time. (Remember this is not [Quora](http://www.quora.com), where the philosophy is for you to ask more and more questions).
 
@@ -685,7 +691,7 @@ Using the distraction-free mode of Sublime has definitely been a plus to my prod
 
 My approach to solving the problem was to fire up my terminal and type:
 		$ killall sublime_text
-This fix did it in a brute force way, so I had to restart the application all the time. However, a few days ago, I noticed the 
+This fix did it in a brute force way, so I had to restart the application all the time. However, a few days ago, I noticed this was not caused by some bug. Instead it was the modal window of Sublime Text that reminds you pay for the text editor, that had been popping up at thos times, albeit underneath the active window. This was happening because my text editor, while in "distraction-free" mode was going full screen and preventing other applications from taking focus.
 
 
 
@@ -768,6 +774,18 @@ The Journey of one night.
 
 ================#####=================
 
+Retropedaling 2015
+
+I am looking back now at some of the events that have taken place this past year.
+
+I remember beginning the year trying to complete some school projects,
+
+But right now, I am preparing to write an Oracle java certification examination. The exam having been initially scheduled for Thursday 24th December 2015 has now been rescheduled for Wednesday 30th December 2015.
+
+Before now, I had moved to a new residence, where I live with 
+
+
+================#####=================
 
 The Year End Resolution that Near-Failed.
 
@@ -777,26 +795,91 @@ My year-end resolution was to become more taciturn than ever. Now, while I could
 
 As days came in upon days, I started loosening my grip on this new decision. I became increasigly enthusiastic about my conversations, since they were often centered upon topics that resonate on technology.
 
-It's almost a new year, and I am bent on makeing this one a reality. I will confess it won't be a smooth ride, but I hope to get through with it.
+It's almost a new year, and I am bent on making this one a reality. I will confess it won't be a smooth ride, but I hope to get through with it.
 
 
 ================#####=================
 
+Python Goldmines
 
-Slack is very Configurable
+In seeking to become better with the Python programming language, I have been scouring the web for helpful resources.
 
-How I reset our Slack channels.
+At the moment, I am doing most of my work with the Flask web framework, which is used to build the backend of web applications. It is also very commonly used for building REST APIs.
 
-Slack has paid and free versions, but the free one already comes with a ton of cool features, and is highly usable as is, especially for teams that are very small like mine. So we have stuck with this unpaid version of the application for a few months.
+I have found that one of.the ways to be more adept in any programming  language, is by picking one of the _good_ frameworks/libraries built atop of it, and making use of it. You should look specifically at the ones that are open source, so you can peek at their source code too.
 
-Recently, we decided to have our clients join our slack team. This has some benefits:
-    - It would help us keep the client up-to-date on project progress
-    - It brings our clients to our preferred communication platform (So we have them all in one place)
+And this is very much the case with Flask and Python.
+
+While taking the learn-as-you-build approach, I find myself constantly refactoring code as I learn better ways to do things. I am often cross-learning stuff from varying sources. Two of the sources that I have found very resourceful are:
+
+* FullStackPyyhon
+* RealPython
+
+<br/>
+To complement what I learn on fullstackpython, I have subscribed to the "Talk Python to Me" podcast, which is run by the same author.
+
+There are a number of other resources I have come across, which I have listed below this post.
 
 
-In doing this, we were presented with a small challenge. All our previous discussions had mostly being in the single, public, general channel. Some of these discussions obviously included stuff we would rather keep private. Even though the first client, had already signed up, I had to quicjly find a way to migrate -- I chose not to delete -- the messages in the hope that he had not scrolled back through the message log.
 
-Upon doing a quick surf around the Slack options, I discovered I could
+
+
+================#####=================
+
+# Slack is Tweak-friendly
+
+> How I migrated the locked default channel on Slack.
+
+[Slack](http://slack.com) is a communication platform built for teams. While it is free by default, there are features reserved for paid users. However, the free version already comes with a ton of cool features, and is highly usable as is, especially for teams that are relatively small. My team has stuck with this unpaid version of the application for a few months.
+
+Recently, we decided to have our clients join our Slack team, with some envisaged benefits:
+
+* It would ease the process of keeping the client up-to-date on project progress
+* It would bring our clients to our preferred communication platform, bringing them all in one place
+* We could leverage some of the many tools available for use with Slack to improve our communication with clients. It's worth noting that Slack is very API friendly.
+
+<br/>
+In doing this, we were presented with a small challenge. All of our previous conversations which had mostly being in the public, general channel, **_#general_**, were now open to our newly signed-on client. Some of these conversations obviously included stuff we would rather be more privy about. This meant I had to quickly find a way to _migrate_ -- I chose not to _delete_ -- the messages in the hope that he had not scrolled back through the channel's message log.
+
+
+This would have been easier if Slack allowed certain modifications to the default channel named _#general_<sup>__[1]__</sup>. For instance, Slack prevents the deletion of this channel. On top of that, Slack puts some restrictions on private channels:
+
+* They can't be [deleted, but can be _archived_](https://get.slack.help/hc/en-us/articles/213185307-Deleting-a-channel).
+* They can't be changed to _public_ channels even though the reverse is possible.
+
+<br/>
+These limitations notwithstanding, the following explains my approach to tackling the problem.
+
+First I used Slack's [export](https://get.slack.help/hc/en-us/articles/201658943-Exporting-your-team-s-Slack-history) feature to backup all of our conversations, including channel information. A caveat here is, _Slack does not include private channels' data with exported data by default_<sup>__[2]__</sup>, but thankfully, we hadn't any private rooms at the time.
+
+Now, Slack exports team data in JSON format, making it very easy to work with. Having downloaded the exported data, I started looking through it for parts that I could tweak.
+
+There were some top-level (__root folder__) files which included meta-data about users, teams and channels. Then there were also folders for each channel, in which, conversation logs were kept, grouped by days.
+
+Next, I edited the `channels.json` file in the top-level directory, and changed the name of the channel _#general_, which contained the messages, to some new name. Then I went and renamed the folder named `general`, to this new name.
+
+With these changes in place, I compressed the modified files alongside the unmodified ones into a _zip_ archive; the original Slack-exported data had come in a zip file as well. Slack allows you to [import](https://get.slack.help/hc/en-us/articles/201748703-Importing-message-history) this zip file into your Slack team, which was what I did next.
+
+During the import, Slack automatically tried to match detected channels (from the import) with existing ones, after-which I was presented with a page that displayed the mapping suggestions. I simply set it not to map but create new channels instead.
+
+Upon successful completion of the imports, I went on to delete all the messages in the existing _#general_ channel. Those messages were now the contents of a newly minted channel, created using the new name I previously gave to it.
+
+With all these in place, I did two more things:
+
+* I edited and marked the new channel as _private_, and
+* I welcomed our new client to our Slack space __;) __
+
+
+<br/>
+__ __
+
+#####[1] More on Slack's default channel - #general
+* [https://get.slack.help/hc/en-us/articles/201827866-Renaming-the-general-channel](https://get.slack.help/hc/en-us/articles/201827866-Renaming-the-general-channel)
+* [https://get.slack.help/hc/en-us/articles/201898998-Setting-default-channels-for-new-users](https://get.slack.help/hc/en-us/articles/201898998-Setting-default-channels-for-new-users)
+
+#####[2] Exporting private data from Slack
+* [https://get.slack.help/hc/en-us/articles/204897248-Understanding-Slack-data-exports](https://get.slack.help/hc/en-us/articles/204897248-Understanding-Slack-data-exports)
+
 
 
 ================#####=================
@@ -820,5 +903,160 @@ I started looking for common patterns among blueprints, and I discovered that, a
 
 
 The simplest way to illustrate this in my opinion, is with the exanple of a web application that has different levels of users: regular users, moderators and administrators.
+
+================#####=================
+
+
+wGetting Them All!
+
+
+If you are in a location with internet connection issues, or limited by the amount of bandwidth you can afford, then there are ways you can leverage the resources that are useful to you on the web.
+
+Often times, I find that there are tutorials I can read, while online. But what happens when I loose Internet connection? I could download the site for offline reading! This is particularly workable with static sites that have no interaction with the backend, other than delivering static pages to us.
+
+There are two ways I do this.
+1. I use the HTTrack website copier software, which is available cross platform.
+2. wget, I learnt about this one recently.
+
+I also use this approach to download documentations for offline reference, since they're mostly static.
+
+The most current version of HTTrack supports resumption of broken downloads. This is also built into wget, which is an old Linux tool.
+
+One issue I have observed with the latter however, is that it doesn't seem to get the CSS style files accordingly; therefore, you may have aesthetic issues with it. This is problem I have had with HTTrack, except the style file hasn't been downloaded yet.
+
+The command for wget is:
+    $ wget --continue --wait=20 -r -p -U Mozilla [URL_TO_SITE]
+
+
+[1] Links to get HTTRACK for your platform.
+*
+*
+*
+================#####=================
+We just got out of s htwo different vehicles, and the mood contrast is surprisingly sharp, it almost looks like we are coming from two contrasting events.
+
+================#####=================
+
+Why I write about Sports
+
+I often like to do some rants about my favorite sports team, Arsenal FC simply because i want to prove to folks that you don't have to sit through 90 minutes to know what's going on.
+
+I could go through an entire season of football without watching a single match, and still stay updated with what is going on.
+
+If you don't believe me, the only I'll ask you to do is to try it out for yourself. Prior to the age of mobile apps flooding everywhere these days, I would usually get my updates by googling stuff. But that's all become much easier now, with the coming of these apps.
+
+So why don't you try using your time on something else and watch less football.
+
+
+================#####=================
+
+
+Learn Subconsciously!
+
+I often tell people that, I don't get much free time to watch movies. Nonetheless, the few ones I watch, I try to make them count as much as I can.
+
+When I watch a movie, I try to do some further reasearch (mostly on Wikipedia) about the new facts I learned from the movie. Not every movie gives me something to read about, but I try not to miss my after-movie review when I come across the few ones that do.
+
+As an instance, I have recently watched the "The Theory of everything", the [4TH] movie that documents the life of renowned scientist, Stephen Hawking. That movie revealed a lot more about a man whom, although I had adored, I had only skimmed the bits of his life and journey. Watch the movie was enlightening, but even more, led to learn more about the man and his condition.
+
+This is learning with every experience that serves to teach us something, albeit not directly. I admit I am neither the first nor the only person doing this, but I find that there are very few people in the world who go beyond the entertaing purpose of the movies we watch.
+
+There are other sources I learn from.
+
+I haven't been taking a writing course, but the help of some kind reviewers, I have been gauging the quality of my writing over time. I am always glad to hear positive comments; I make certain to improve on the negative ones, but I ever keep improving.
+
+I would like to point out here that, one of the interesting ways I have improved in my writing is by reading __quality answers__ on Quora. The top writers are often very articulate, and neat in their prose. So somehow, subconsciously, I have been taking cues from those.
+
+
+
+
+================#####=================
+
+
+Is ForteSoft rebranding?
+
+If I somehow manage not to drop-out, then I'd look back and call this my alma mater; I'd like to do that with some dignity.
+
+The year has seen some of the driving minds of Fortesoft systems come up with all kinds of innovative ways to encourage students of the MMS program.
+
+
+
+
+
+================#####=================
+
+Want to be better at English?
+
+Read __widely__; cross-genre reading
+Play word games
+Watch English speakers with intent
+Speak English **confidently**
+
+================#####=================
+
+Today is the last day in 2015.
+
+I went to church to attend the sixth in a 7-day series prayer programme that climaxes in the new year -- first day of the new year.
+
+After church today, I went to Computer Village at Ikeja to purchase for the wife of my pastor -- Pastor C.O Odusina. This was a follow to a similar purchase for his son only two days ago.
+
+Well, I got the phone and a couple of accessories, but the interesting twist to the journey was the girl "Luby Asaa" whom I met at the store. She striked me as having a strong psychological twist to her character. I also met her sister who impressed me with her show of dexterity in hand-cutting a smartphone screen protector.
+
+On my way home from the market, I purchased a new book on Hitler - taDa! -  titled, " ... "
+
+I got back home at noon and spent well over two setting up the new device and some other phones at my pastors'. He had visitors while I was there to whom  he almost didn't pay much attention in their over-thirty minutes visit. It was woman with her four children, the eldest just fresh outta college. The children had some interesting rhyming scheme to their names; they all ended with "mide": Ayomide, Aramide; Olamide and Iremide.
+
+
+On a different and rather sad note, I learnt just this evening about the death of Ian Murdock -- founder of the Debian Linux distro, and the "ian" in "Debian". At the time of this writing, details about the cause of his death have yet to be disclosed. However, his tweets in recent days point mention suicide and police brutatlity.
+
+I've spent the last hour reading and learning about IRC. I intend to write my own bot that lives on IRC, and hopefully evolves to provide some unique features.
+
+I learnt particularly about the _Twisted_ Python library, which is quite dated. It was even interesting to learn that the `logging` module that comes with `twisted` pre-dated that in the Python `std-lib`.
+
+I am writing this with only a few hours for this year to end. I'll be in church very soon, and it won't be until 2016 before I resume any writing or coding.
+
+
+================#####=================
+
+
+
+Small Bug with Pelican
+
+In the evening, I was able to fix a small bug with my blog that was caused by conflicting options. When I created the "Life Log" category and added a first post in that category, I also added the tag "life log". Both of these were resolved by Pelican as "life-log".
+
+Usually, when you add a new category or tag to your blog post, depending on your configuration, it would most likely be the case that new templates for feed generation would be added. For instance, if I added a new a tag on my blog named `"some_tag"`, my blog would try to generate a `some_tag.` Now tags and categories would generate feed and these resulted in some sort of conflict because they would generate the same files for feeds. It was such a subtle bug, I had no clue what was going at first, and couldn't get help on IRC either. Eventually, I asked on IRC how I could run Pelican with debugging enabled, and flobin (an IRC user on the #pelican channel) came to my rescue with: `pelican ... --debug`. This was what I needed.
+
+On using the `--debug` swith with the `pelican` command, I got a full traceback,which had previously been suppressed without
+
+
+
+================#####=================
+
+NEW YEAR RESOLOUTIONS ARE A MYTH, IT'S A SPUR OF THE MOMENT
+
+
+
+================#####=================
+
+SPIRITUALITY ECLIPSES PSYCHOLOGY IN THIS PART OF THE WORLD
+
+
+================#####=================
+
+
+#I am reading papers!
+
+If I had a resolution for the new year, it would be my plan to read one academic paper per day. I feel as though reading people's documented research work would help broaden my knowledge and deepen my insight.
+
+So I started looking for a way to crowdsource paper suggestions from a source, namely Quora. However, as I didn't get the much needed feedback in due time, Google was my next available pal. I did land on [this page on Github](paperswelove)
+
+After launching the first paper in my document reader software, I was surprised to see that my earlier projections of papers being under 20 pages was flawed, and so I decided to replan the whole paper-reading thing.
+
+Now, I will attempt to read at least one paper per week.
+
+The reasons for this are not far fetched. I don't want to consume this publications like some fictional works. Instead, I want to read to near-full if not full understanding of their content.
+
+The paper I am currently reading, my first, is ... by Roy T. Fielding. It was his submission for a doctoral programme in the year 2000.
+
 
 ================#####=================

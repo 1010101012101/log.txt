@@ -3,7 +3,7 @@
 This is a store for my text files.  
 
 
-**Note to** ***Self*** : **Remember** to gitignore files containing sensitive info**!**  
+**Note to _Self_** : **Remember** to gitignore files containing sensitive info**!**  
 
 
   
@@ -20,5 +20,5 @@ File "web" is for bookmarks. also uses tags.
 
 
                                                              V
-    Kindly follow my penned thoughts here:      https://takwas.github.io/
+    You may follow my penned thoughts here:      https://takwas.github.io/
                                                              ^

@@ -12,8 +12,8 @@ write:blog::"My interview (Journey to NIIT)"
 #bank::Get util_bill; open CA; send slips (via Chuka)
 call::grandma
 learn::github markdown
-whatsapp::edit and change MMS groups' photos
-faculty:mms:csharp::organise class schedule
+#whatsapp::edit and change MMS groups' photos
+#faculty:mms:csharp::organise class schedule
 #niit:git::create a git repositoty for niit files; ignore faculty resources and other sensitive files
 niit:faculty:sql::go through SQL materials against next class
 #niit:mms:date::prepare for upcoming mms competition - 25 Sep., 2015
@@ -26,12 +26,12 @@ query:linux:ssh:security::What is SSH Pub Key?
 #niit:faculty:.net::prepare for next class with material - "~/niit/faculty/res/SS2K1 Object Oriented Programming/129618 OOPs/01_Coordinator Guide-PDFs/01_Module CG/PART 1/10_OOPS_SG_04.pdf"
 project:dev:android:pc:sync::an app to sync notes between phone and laptop, done entirely offline via a local network connection
 video:tutorial:sql::watch MS SQL Server 2014 MVA video downloaded by Segun
-##git::track content from my "log.txt" repo on my phone and sync files with naming disparities
+#git::track content from my "log.txt" repo on my phone and sync files with naming disparities
 git::track content from my "log.txt" repo on my phone and sync files
 android:download::Nova Launcher
 #tobi:family::inform Tobi to put cash in holding via etranzact
 #niit:faculty::inform Mr Ben of missing "slide_04"
-niit:faculty:.net::workon files: "Template.cs"; "ProcedureDemo.cs"
+#niit:faculty:.net::workon files: "Template.cs"; "ProcedureDemo.cs"
 pc:git::create a central dir to with symlinks to all local git repos
 script:bash::automate file diff-ing with Meld via the terminal; auto launch Meld when device is connected
 #niit:faculty:.net::Treat object oriented concepts with practical classes; compare POP to OOP; explain class Properties {get; set;}
@@ -50,4 +50,6 @@ fix::Clipboard manager issue with the LXDE environment
 laundry:howto::how do I Properly wash my hoodie?
 project:dev:router:app::Indicate BRT pickup points in app
 resume::to Mum
+blog::Add category: "LastWeekInChurch" … Christian writings on per week basis.
+project:dev::Improved hymn mobile app; in collaboration with Bro Muyiwa Ogunde
 ::

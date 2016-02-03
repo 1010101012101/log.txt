@@ -448,6 +448,8 @@ Believe it or not, people care about what you have tried. For instance, if you'r
 
 It's the same game that plays out in an interview room. As a developer, when potential employers speak of experience, you shouldn't narrow your scope to just experience gotten from 9 to 5 jobs. You should equally consider your personal projects: on how many challenges you have faced [and possibly overcome], and what lessons you've brought back home.
 
+Scott Hanselman said, "I think if you can't be excited about software then you should find a different job."
+
 You should develop the habit of frequently taking on side projects. Always have something you are working on on the side, outside of your regular routine; it doesn't matter how big or small the project idea may be, but __endeavour to see it to completion__. Completing it is key here. Although I am telling you this, it is worth noting that I have failed at this myself. I do have a few side-projects but because I fail to complete them to at least a _demoable_ stage, I am often unable to showcase any of them when the need arises.
 
 So start working on something today. If it is starting to become cumbersome, find someone to work on it with you. Better yet, open source it! There is a pool of hungry programmers out there, waiting to pounce on the next available interesting project.
@@ -746,7 +748,7 @@ I have known Git for about three years, but something as simple as Git didn't be
 
 I also tried to understand it well enough to be able to not only persuade my co-developer colleague/teammate to use the tool, but to also teach it to him in as simplified an approach as I could muscle up.
 
-This is why I have become fond of telling people to stop learning for learning, but for usage. Are you thinking of learning a new programming language? If yes, then why not a take a moment and ask yourself a few questions. What would you do with this new skill? How does this new learning improve your work, life or activities. If you are unable to find answers to these wuestions, then you proobably wouldn't enjoy the learning experience and you most likely wouldn't keep your interest alive for long.
+This is why I have become fond of telling people to stop learning for learning, but for usage. Are you thinking of learning a new programming language? If yes, then why not a take a moment and ask yourself a few questions. What would you do with this new skill if acquired? How does this new learning improve your work, life or activities. If you are unable to find answers to these wuestions, then you proobably wouldn't enjoy the learning experience and you most likely wouldn't keep your interest alive for long.
 
 
 ================#####=================
@@ -766,7 +768,7 @@ I decided to become more quiet. Goodness me, I just read a Quora answer that say
 
 That's part of what got me finally started on this blog. And I'm glad I'm able to do one or two writings more frequently.
 
-I'm really hungry foe productivity, and I'm prepared to shed all unhelpful habits. I
+I'm really hungry for productivity, and I'm prepared to shed all unhelpful habits. I
 
 ================#####=================
 
@@ -897,12 +899,16 @@ The Flask documentation says [somethings]() about Blueprints and why they are us
 > Provide template filters, static files, templates, and other utilities through blueprints. A blueprint does not have to implement applications or view functions.
 
 
-Using Blueprints just gives a straightforward way to think of structuring your application in terms of modules, although you are not limited to blueprints' modules alones; your app can of course contain other modules as you wish.
+Blueprints give a straightforward way to think of how to structure your application using modules, although you are not limited to blueprint modules alone; your app may  contain other modules as you wish.
 
-I started looking for common patterns among blueprints, and I discovered that, a Blueprint can have among other things it's own set of view functions, with an optional URL prefix (configured using the `url_refix` parameter in the instantiation of a new Blueprint object).
+I started looking for common patterns among blueprints, and I discovered that, a blueprint can have among other things it's own set of view functions, with an optional URL prefix (configured using the `url_prefix` parameter in the instantiation of a new Blueprint object).
 
 
-The simplest way to illustrate this in my opinion, is with the exanple of a web application that has different levels of users: regular users, moderators and administrators.
+An easy way to illustrate this is with the exanple of a web application that has different levels of users: regular users, moderators and administrators.
+
+Let's say you wish to implement the login processes for these levels differently, and present them with different pages (UI-wise), and at different URLs.
+
+You 
 
 ================#####=================
 
@@ -912,28 +918,36 @@ wGetting Them All!
 
 If you are in a location with internet connection issues, or limited by the amount of bandwidth you can afford, then there are ways you can leverage the resources that are useful to you on the web.
 
-Often times, I find that there are tutorials I can read, while online. But what happens when I loose Internet connection? I could download the site for offline reading! This is particularly workable with static sites that have no interaction with the backend, other than delivering static pages to us.
+Some websites or blogs have content arranged in order of chapters that I like to read in that order. And some others just appeal to me as troves of useful content that I would want to keep within easy reach. The challenge with this is that there are times when I have no active internet subcscription or connection, making such resources unavailable to me.
 
-There are two ways I do this.
-1. I use the HTTrack website copier software, which is available cross platform.
-2. wget, I learnt about this one recently.
+Interestingly, it is possible for me to keep an entire website offline. With the help of some of tools, I could download the site for offline reading! This is **particularly workable with static sites** that have no interaction with the backend, other than delivering static pages to us -- so don't think of doing this with Facebook, or Quora. **:)**
+
+<br/>
+
+There are two ways I do this:
+
+1. I use the __[HTTrack Website Copier](http://www.httrack.com/)__ software, which is available cross platform; and 
+2. __[wget](http://linux.die.net/man/1/wget)__, I learnt about this one recently.
 
 I also use this approach to download documentations for offline reference, since they're mostly static.
 
 The most current version of HTTrack supports resumption of broken downloads. This is also built into wget, which is an old Linux tool.
 
-One issue I have observed with the latter however, is that it doesn't seem to get the CSS style files accordingly; therefore, you may have aesthetic issues with it. This is problem I have had with HTTrack, except the style file hasn't been downloaded yet.
+One issue I have observed with the latter, however, is that it doesn't seem to get the CSS style files accordingly; therefore, you may have aesthetic issues with it. I have not had this problem with HTTrack.
 
-The command for wget is:
-    $ wget --continue --wait=20 -r -p -U Mozilla [URL_TO_SITE]
+HTTrack is multiplatform supported. There are versions for Android, Windows, and Linux, [downloadable here](http://www.httrack.com/page/2/)
+
+The typical command for wget is:
+
+` $ wget --continue --wait=20 --limit-rate=20K -r -p -U [BROWSER] [URL_TO_SITE]`
+
+For example:
+
+` $ wget --continue --wait=20 --limit-rate=20K -r -p -U Mozilla http://takwas.github.io/`
 
 
-[1] Links to get HTTRACK for your platform.
-*
-*
-*
 ================#####=================
-We just got out of s htwo different vehicles, and the mood contrast is surprisingly sharp, it almost looks like we are coming from two contrasting events.
+We just got out of two different vehicles, and the mood contrast is surprisingly sharp, it almost looks like we are coming from two contrasting events.
 
 ================#####=================
 
@@ -951,23 +965,55 @@ So why don't you try using your time on something else and watch less football.
 ================#####=================
 
 
-Learn Subconsciously!
+Wholesome Learning !
 
-I often tell people that, I don't get much free time to watch movies. Nonetheless, the few ones I watch, I try to make them count as much as I can.
+I often tell people that I don't get much free time to watch movies, which is true. Nonetheless, I try to make the most of the few ones I get to watch.
 
-When I watch a movie, I try to do some further reasearch (mostly on Wikipedia) about the new facts I learned from the movie. Not every movie gives me something to read about, but I try not to miss my after-movie review when I come across the few ones that do.
+When I watch a movie, I make sure to follow it up with some mini-research (mostly on [Wikipedia](http://wikipedia.org)) if it presents any interesting new piece of information; be it fact or fiction I learn all the same! Of course, not every movie gives me something to read about, but I try not to miss my after-movie review when I come across the few ones that do.
 
-As an instance, I have recently watched the "The Theory of everything", the [4TH] movie that documents the life of renowned scientist, Stephen Hawking. That movie revealed a lot more about a man whom, although I had adored, I had only skimmed the bits of his life and journey. Watch the movie was enlightening, but even more, led to learn more about the man and his condition.
+<br />
 
-This is learning with every experience that serves to teach us something, albeit not directly. I admit I am neither the first nor the only person doing this, but I find that there are very few people in the world who go beyond the entertaing purpose of the movies we watch.
+As an instance, I have recently watched the "[The Theory of Everything](https://en.wikipedia.org/wiki/The_Theory_of_Everything_(2014_film))" -- one of a number of movies that have been created to document the life of renowned scientist, [Stephen Hawking](https://en.wikipedia.org/wiki/Stephen_Hawking). That movie revealed a lot more about a man whom, although I have long admired, I had only skimmed the bits of his life and journey. Watching the movie brought me closer to his personality, achievements and also importantly, his [medical condition](https://en.wikipedia.org/wiki/Amyotrophic_lateral_sclerosis).
 
-There are other sources I learn from.
+<br />
 
-I haven't been taking a writing course, but the help of some kind reviewers, I have been gauging the quality of my writing over time. I am always glad to hear positive comments; I make certain to improve on the negative ones, but I ever keep improving.
+This kind of learning is not your everyday classroom setting or some online tutorial; well, of course we never learn everything from the classroom! However, my point is that these movies -- the good ones -- do not only serve to entertain us, but present us knowledge alongside. Some would call this "edutainment". It is indirect learning, but I can tell you for certain that this is one way I've picked up knowledge of many things I would ordinarily not seek for.
 
-I would like to point out here that, one of the interesting ways I have improved in my writing is by reading __quality answers__ on Quora. The top writers are often very articulate, and neat in their prose. So somehow, subconsciously, I have been taking cues from those.
+What's more? Movie production crews are very mindful of their usage of time, so they tend to cramp it all to fit within the conventional 1-2 hour duration of screen time, hiding some details in the process. This is especially evident with movies that are book-based.
 
+But it's not all movies. There are of course, other sources I learn from.
 
+While I have not really taking any writing course despite my yearnings for qualitative writing, I have over time continued to gauge the quality of my writings both with the help of some kind reviewers and through self review, I am always glad to hear positive comments; and I make certain to improve on the negative ones.
+
+But most importantly, I learn and improve -- almost passively -- from simply taking in other people's works. When I scour the net for information or read blog posts or articles, I am not just getting what I need at that moment, but I am also taking in, albeit subconsciously, the presentation style of the document.
+
+For example, one of such rich places, content wise, is [Quora](http://quora.com). The _top writers_ (people who often give good answers to questions and get frequent _upvotes_ from other members of the Quora community) are often very articulate and neat in their prose. So somehow, again subconsciously, I have been taking cues from those.
+
+Also, when you chat, try to avoid the use of SMS language. In my opinion, it negatively affects your writing. Sometimes I'd unconsciously use "pls" instead of "please" while writing formally. Also, I use chats as playground for practicing good sentence constructions. So, I don't abbreviate unnecessarily, and I try to use punctuations appropriately. I advise you do same.
+
+As a side note, I find that even though my writing is not exactly top-notch, when I re-read stuff I have written ten days later, I am usually quite impressed and can make improvements. So as a word of advice, "do not despise the days of your little beginnings." Just do it.
+
+<br />
+
+I also take time to listen to talks (especially [TED talks](https://www.ted.com/talks)) and podcasts. Whether it be commuting time, or time I'm doing some laundry, I try to maximise my use of time; __who says multitasking is a myth__?
+
+In fact, in [crowdsourcing for academic paper suggestions](/i-am-reading-papers), one of the folks who answered [my question on Quora](https://www.quora.com/What-is-a-recommended-list-of-essays-papers-to-read-one-per-day-in-2016-for-an-autodidact-who-wants-to-widen-his-horizon?share=1) suggested I read transcripts of TED talks. It wouldn't come as a surprise to anyone conversant with these talks that they are so rich and insightful. They bring to you a wide array of perspectives from different minds across the globe. Bottom line is, whether you agree with their postulations or not, you learn!
+
+<br/>
+
+If you'll keep these points in mind as you explore life, you'll find that there are lots of activities that can educate you and give you pleasure at the same time. Try to learn from all of your day-to-day activities and life experiences. So if an activity doesn't _somehow_ benefit you whilst eating into your time, _do your hardest_ to abstain from it.
+
+<br/>
+
+Some tips for getting better at English usage:
+
++ Read __widely__; cross-genre reading
++ Play word games (crosswords, scrabble, ...)
++ Watch (and listen to) English speakers **with intent**
++ Make the dictionary, thesaurus and any other similar lookup book (e.g. references for idioms, phrasal verbs) your friends
++ Participate in online English communities. An example is the ##English channel on [IRC](irc://irc.freenode.net/python)
++ Write consciously, and often
++ Speak English **confidently**
 
 
 ================#####=================
@@ -979,18 +1025,6 @@ If I somehow manage not to drop-out, then I'd look back and call this my alma ma
 
 The year has seen some of the driving minds of Fortesoft systems come up with all kinds of innovative ways to encourage students of the MMS program.
 
-
-
-
-
-================#####=================
-
-Want to be better at English?
-
-Read __widely__; cross-genre reading
-Play word games
-Watch English speakers with intent
-Speak English **confidently**
 
 ================#####=================
 
@@ -1048,15 +1082,367 @@ SPIRITUALITY ECLIPSES PSYCHOLOGY IN THIS PART OF THE WORLD
 
 If I had a resolution for the new year, it would be my plan to read one academic paper per day. I feel as though reading people's documented research work would help broaden my knowledge and deepen my insight.
 
-So I started looking for a way to crowdsource paper suggestions from a source, namely Quora. However, as I didn't get the much needed feedback in due time, Google was my next available pal. I did land on [this page on Github](paperswelove)
+So I started looking for a way to crowdsource paper suggestions from a source, namely Quora. However, as I didn't get the much needed feedback in due time, Google was my next available buddy. I did land on [this page on Github](paperswelove)
 
 After launching the first paper in my document reader software, I was surprised to see that my earlier projections of papers being under 20 pages was flawed, and so I decided to replan the whole paper-reading thing.
 
-Now, I will attempt to read at least one paper per week.
+Therefore, I will now attempt to read at least one paper per week.
 
-The reasons for this are not far fetched. I don't want to consume this publications like some fictional works. Instead, I want to read to near-full if not full understanding of their content.
+The reasons for this are not far fetched. I don't want to consume these publications like some fictional works. Instead, I want to read to near-full if not full understanding of their content.
 
-The paper I am currently reading, my first, is ... by Roy T. Fielding. It was his submission for a doctoral programme in the year 2000.
+The paper I am currently reading, my first, is "Architectural Styles and the Design of Network-based Software Architectures" by __Roy Thomas Fielding__. It was his submission for a doctoral program in the year 2000.
 
 
 ================#####=================
+
+LastDay2015
+
+I'm thinking now about the troubles I had with my stomach in 2015, and I think the idea of "routine fasts" should stop or be minimised.
+
+In the Techplus event of July 2015, one of the speakers said, "nobody cares about what you can do, as much as what you have done," and what that has stuck ever since.
+
+I got good commendations from Catherine Oates and Michelle Gaugy -- both Quora acquaintances -- about the improvement in my writing ability. That's some encouragement for some more commitment and consistency in writing in 2016.
+
+I need to write about NIIT (Fortesoft Systems) -- negative and positive reviews of the organisation in 2015 from my eyes' view.
+
+To learn:
+
+Flask RESTful APIs
+IRC Bot creation
+
+
+================#####=================
+
+add: Concept of ready made phrases to wholesome learning. Collocative expressions from just listening and reading.
+
+================#####=================
+Subtle bugs:
+Difference between a script and a module/library
+
+Python would first add the root path you are running from.
+
+================#####=================
+
+Sawkat is the name I gave to my IRC bot which I'm curretly working on. "Sawkat" is emptdnilap for "takwas", my nickname.
+
+Heroku is a PaaS service that allows developers deploy their web apps for free. The free service that allows developers deploy their web apps for free. The free service has some limitations, but is considerably sufficient for many light-
+
+================#####=================
+
+"We won't waste your time," the one lie I have heard over and again. It is true that time spent in God's house is never wasted ...
+
+Church is always fun.
+
+The feeling you get when you are in that atmosphere, where everyone tries to look their best, both in clothing and in attitude. Sometimes I wonder if all these people I see in church never commit any sin. Looking at my life though, I know better.
+
+
+
+
+================#####=================
+
+TESTS THAT FAILED TO RUN
+
+
+Later, I got to my computer and began to find a fix for a bug I encountered while trying to setup testing for the IRC bot project I am contributing to. The script to run the tests had continously failed to run.
+
+So I got on IRC, posted my question+code and started seeking the angel to get me out of my misery. While reading a blog post -- one of the few I wandered to -- I came across a comment that said something like,
+
+"Look at the code in your site-packages to learn the ropes."
+
+That was it! Oh, but that only led to a makeshift solution.
+
+With my sublime code editor, I quickly navigated to the site-packages folder for my Python virtual environment. I looked for those folders containing "tests", looked through some of their code, and the only helpful one I could find at the time was the "simplejson" library.
+
+Right there the main file that ran the tests was the following code:
+
+…
+
+I copied this code used it with my code, and voila, my tests ran successfully by failing. Alas, this was the beginning of another inquest. I wanted to know why that snippet of code worked.
+
+So I got back to IRC, made all the noise I could, asking questions, pastebinning snippets of my code. But I didn't get the response I was looking for. Eventually, user 'Wooble' made a statement that made the most sense:
+
+> " You don't run a script…   "
+
+
+
+
+================#####=================
+
+
+================#####=================
+
+
+Sublime has `find_under_expand` (Ctrl+D)
+
+This is a very useful tool for refactoring. A more interesting way to find and replace.
+
+I use it to locate text with similar characters, or with some minimal regexp matching, text with similar structuring.
+
+Ctrl+[RIGHT_ARROW] - Go to end of word
+Ctrl+[LEFT_ARROW] - Go to beginning of word
+
+END - Go to end of line
+HOME - Go to beginning of line
+
+Ctrl+Shift+D - Duplicate line
+================#####=================
+
+
+"To be the worst person in the room could be a blessing."
+
+It "could" be a blessing if the concept is not mistaken with inferiority complex.
+
+Personally, this is one bit of truth I had -- until now -- intentionally swept under the carpet. You could be in the wrong room if you're getting all the praises and failing to be sensitive to same.
+
+When you find yourself looking down on those around you, it's probably time to switch rooms. Finding the right room is finding the room in which you're the worst. Being in the wrong room hinders growth. Being the worst person in the room motivates you to grow.
+
+Sitting atop could keep your gaze at the bottom. While those down below might have high aspirations, you  mightn't feel the need to get to something higher than you, easily lending yourself to complacency.
+
+This does not however mean that it's wrong to be in the top seat. If this is the case with you, this may be clichéd, but one of the things you'd need for survival is humility.
+
+
+
+If you're like me, you'll find that it's a bitter pill to swallow discovering someone is better than you; even failure is. I spent last year advocating the "fail fast, fail frequently" rule. Now I realise that talk is cheap.
+================#####=================
+
+Sitting in this bus, and I just noticed something I consider unusual. An elderly (quited aged) couple in front of me: a Christian wife and a Muslim husband, both observing their "rituals", well, so adorably.
+
+At first I imagined talking the man into Christianity so that their togetherness wouldn't terminate here on earth. That may only be halfway correct as I recall the Bible mentions "there will be no marriages in heaven". A family ties end here on earth.
+
+
+================#####=================
+
+Realigning My Reading and Writing Goals
+
+
+I had made this resolution to read academic papers, daily. I had yet another to log ny life daily. The latter was only successful for the first few days of the year.
+
+Now in accordance with what reality presents me, I will change both schedules.
+
+Read one academic paper per month and only log weekly, cutting out unnecessary details.
+
+I will still continue to maintain [open sourced logs on Github](), but won't post much of it; only weekly summarised and refined content will make it here.
+
+
+================#####=================
+
+Asking the Right Questions on Quora
+
+Quora has a policy that encourages users to ask "any kind" of questions.
+
+While I understand that they need to generate traffic by welcoming people's queries in whatever forms, I beg to disagree with this approach.
+
+Sometimes I have a question in mind, and Quora being, for me,  the de facto Q&A portal, comes to mind. However, I get to ask only few of those.
+
+As an example, this morning I pondered on the name of the arguably number one app for learning foreign languages "Duolingo".  I thought to ask what language that word was coined from, but then I thought better of it. What is Google for? 
+Asking every question on Quora, in my opinion, renders content from other parts of the web "useless".
+
+Continuing with the example I cited above, the better question to ask would be, "Did the authors of the Duolingo app consciously name the app using the Latin language?"
+
+Futthermore, the Quora approach kills research.
+
+When you ask questions, you learn more than what you seek . This is often the case with me. I ho searching for 'A' then I a learn about B and C anf D and possibly more.
+
+This is how the learning chain -- or should i say tree -- works. The learning nodes lead one to another. I should maybe even use the term "web".
+
+
+================#####=================
+
+Becoming the Social Programmer
+
+Well, thanks to my friend, Aniekan, I decided to peek outside my usual niche to see what's happening in other parts of the planet.
+
+Last Sunday, I set out on a search for the developer programs available in Beau, Cameroon. This definitely didn't end up as a futile mission.
+
+The first group I found was the Google Developer Group in Beau run by [name here]. Next was the PlaywithPython initiative. And my last stop was… This one led me to Ubuntu  Africa, the Ubuntu community that encompasses all African Linux and Ubuntu users.
+...
+
+
+When grouping code blocks, logic superceeds alphabetical order.
+
+
+================#####=================
+
+Getting good reviews so far. Thank you Guy1 and Guy2
+Time is rhe most expensive commodity I have seen
+
+For one who puts a leash on it
+Is one who 
+
+I mind I picture time
+I can't capture it
+It is much to subtle
+I can capture
+but only it's image in my mind
+Life gave this 
+
+Together, we are running a race
+A counterpart whom we can't behold
+It is here in the race 
+We are running a race
+
+
+================#####=================
+Finding the lost Ubuntu LoCos
+
+We had a meeting on the #ubuntu-africa IRC channel on the Wednesday
+================#####=================
+Making the leap
+
+You know you don't have to be a programmer to be cool, right?
+
+If you're convinced that programming.os the way forward for you, then let me hold you through your journey just for a moment.
+
+I have seen lots of developers…..
+
+Do you like to solve problems?
+Do you run from or face your challenges?
+Are you careful to manage resources effectively?
+Do you like digging into details?
+Are you intuitive?
+
+
+================#####=================
+
+
+On the Stellar Train!
+
+Two days ago, I attended Stellar.org's fireside chat at [Idea Hub]() in Lagos. It was an enlightening event; one that may well be my gateway into the world of open source in the year.
+
+No doubt this will present a somewhat steep learning curve knowing that my background in finance (and [FinTech](https://en.wikipedia.org/wiki/Financial_technology)) is not much to write home about. The experience and payoffs will of course be worth the while and I am expecting more developers to join the train as the platform is still very welcoming at this point.
+
+Stellar is a fairly new financial technology service that aims to be the de facto way in which we move money around.
+
+From Stellar's FAQ page,
+
+> "Stellar is a decentralized protocol you can use to send and receive money in any pair of currencies. So for example, the protocol supports sending money in dollars and having it arrive in pesos."
+
+<br/>
+
+I particularly like the analogy used [here](https://techpoint.ng/2016/01/28/how-stellar-kickstart-nigeria-payments-revolution/) by the Executive Director of Stellar, Joyce Kim,
+
+> "The Stellar platform functions a lot like email whose underlying protocol is SMTP. Before SMTP, you could only email people that were in the same company, network or ISP as you"
+
+<br/>
+She says it would be a lot like being able to send mails across different mail providers.
+
+Most of the details of the workings of Stellar are still very unclear to me, but a few things I've been able to make sense of include:
+
++ Stellar operates on a decentralized network of servers
+
++ Stellar maintains an open digital ledger of transactions. This data is synchronized on all servers.
+
++ Financial institutions subscribed to the Stellar service (called gateways, and to act as "trust" houses) can offer Stellar credits.
+
++ Stellar credits are used to resolve currency pairing issues.
+
++ A Consensus is how Stellar verifies the credibility of a transaction before allowing it to pull through.
+
+Stellar.org provides an _[explain](https://www.stellar.org/learn/explainers/)_ page to describe these concepts. However, I find [this article](http://thenextweb.com/insider/2014/08/01/stellar-open-source-solution-international-money-transfers-currency/) very explanatory.
+
+<br/>
+
+I have joined Stellar's public [Slack team](http://stellar-public.slack.com). And so far, I've been received with warm arms. I encourage many budding programmers looking to get their feet wet with open source projects to join this platform and make some contributions. The mantra for me is "even if it fails..." I think this says enough already.
+
+At the moment, the project I'm looking to contribute to is the [Python library](https://github.com/StellarCN/py-stellar-base) for interfacing with the [Stellar core](https://github.com/stellar/stellar-core).
+
+This project is still in beta form and could readily use some help. It was suggested to me by Scott Fleckenstein ([@nullstyle](https://twitter.com/nullstyle)), the first Engineer at Stellar. At the event, Scott tried to work us through the technical nitty-gritties: innerworkings, stack and how-to-get-started with contributing to the Stellar project. 
+
+These are just some of the things I have been able to wrap my mind around thus far. I am optimistic that once I tie myself in the loop of working on the code and working with the leads I get from time to time, it would all clear out in due course.
+
+
+================#####=================
+
+
+
+UBUNTU AFRIK
+
+
+
+####For starters, the meeting's raw logs are available [here](http://52.17.74.45/freenode-%23ubuntu-africa/2016-01-27-18-31-20.html).
+
+Because I know that reading logs like that might not be the most enjoyable task for your eyes, I have tried to make this blog post a more pleasant-for-the-eyes version of it. :)
+
+The [Ubuntu Africa user community](http://ubuntu-africa.info/) had a meeting on IRC on Wednesday, 26 January 2013 -- a meeting of Linux and Ubuntu users in Africa. It's a call for more African "nuxers"<sup>__[1]__</sup> to join in growing the community.
+
+We believe that coming together to work together will bring about a more rapid growth. Owing to our disparate skills individually, we need communities like this that will present us with people who are skilled in the areas that we are lacking.
+
+Looking through the [directory of Ubuntu LoCos](http://loco.ubuntu.com/teams/), I find it a little surprising that there are no efforts for an active community in my home country, Nigeria. Many people I have met scarcely even know about [IRC](https://help.ubuntu.com/community/InternetRelayChat) around here. More so with the coming of [Slack](http://slack.com).
+
+My recent foray into the African developer community had informed me about this event a few days earlier.
+
+Minutes before the meeting, some users (myself inclusive) had arrived the IRC channel and engaged in discussions while patiently waiting for the scheduled meeting time.
+
+The meeting began at the set time. And it was, as it was customary, chaired by a user whom had been elected in the last meeting Naeil Zoueidi (@Na3iL)<sup>__[2]__</sup> from Tunisia. The other person who seemed to have some good footing in the house was Miles Sharp (@Kilos)<sup>__[2]__</sup> from South Africa.
+
+Attendees at the meeting came from different African nations including Cameroon (with the highest population and mostly first-timers), Tunisia, South Africa, Ghana, Zimbabwe, RDC and Nigeria.
+
+The primary language used during discussion was English. However, Kilos pointed out that if any user struggled with the English language, they could use their own language (most likely French) in the hope that someone would translate for them.
+
+<br/>
+The [#ubuntu-africa](irc://freenode.net/ubuntu-africa) channel has a bot called __QA__ that logs meetings and does a few other tasks. At the beginning of meetings attending users are expected to introduce themselves using the format:
+
+    QA: I am [first name] [last name] - [country]
+
+OR
+
+    QA: I am [first name] [last name] from [country]
+
+When a user does this correctly, the bot would respond to the user confirming receipt of the information. This is doable anytime during the meeting. So if a user comes in late, that's the first thing he'd be expected to do.
+
+I have noticed that the bot performs no parsing whatsoever on this given data and just logs it as is. Therefore, it's in a user's best interest to adhere (strictly) to the format given above.
+
+<br/>
+Before the meeting, there had been an [agenda page](https://wiki.ubuntu.com/AfricanTeams/Meetings/20160127) -- I believe this was open for suggestions on the [mailing list](https://launchpad.net/~ubuntu-africa) -- for the issues to be discussed at the meeting. And this was strictly followed during the meeting.
+
+<br/>
+
+#####The following is my excerpt from the meeting:
+
+The Ubuntu Africa community is currently an unofficial group. It would need more activity to gain the official recognition. Therefore, we have a mandate to try and convince users from all local Linux User Groups to join the Ubuntu Africa community whilst still being active in their respective communities, as this community is country agnostic and aims to bring us all under one umbrella.
+
+Users were encouraged to get word out about the fledgling community through their social hangouts (Facebook, Twitter and the rest...). More suggestions came in on how to  get the publicizing done. Users suggested YouTube videos, Twitter posts ([#ubuntu-africa](https://twitter.com/hashtag/ubuntuAfrica?src=hash)) and blog posts (like the one you are reading now).
+
+The agreement was that Pieter Engelbrecht (@chesedo) from South Africa would put up the blog post. And just in case you want to help get the word out too, here's the link to share: http://ubuntu-africa.info
+
+<br/>
+
+The chair of the meeting raised a point about making some improvements to the [current website of the community](http://ubuntu-africa.info) -- adding a blog section to it. This brought our attention to the designer of the current portal, Raoul Snyman (@superfly) from South Africa and due thanks were accorded by users.
+
+@superfly revealed that the current site was implemented using the static blog generator, _Nikola_, meaning it already comes with a blogging feature, although it hadn't yet been activated, since no one had been available to blog on the site. @Na3iL offered to help with the blogging, and in the end it was agreed that the task would be handled collaboratively by @superfly (technically) and @Na3iL (literarily).
+
+Stephen Mawutor Donkor from Ghana (@mawutor) made one final suggestion in this regard about getting involved in Ubuntu-Lab projects for schools as a way to gain some media attention.. His suggestion was commended.
+
+<br/>
+
+Now to something more technical. Another memeber of the group Cameroonian member @ongolaBoy talked about the issues surrounding approval of our mirror. He stated that the status of submission had gone from "pending" to "Unofficial", which is a good thing.
+
+He shared the URL to the Launchpad page of the mirror: https://launchpad.net/ubuntu/+mirror/miroir.cm.auf.org-archive
+
+Everyone was impressed with this news.
+
+<br />
+
+The last topic tended toward "social" again, and it was kick-started by the chair with the question, "Any new coming events?"
+
+Kilos mentioned the upcoming release of Ubuntu 16.04, which we all anticipate for April. The Tunisian folks (@Na3iL and @elacheche_anis) got talking about some SysAdmin workshop still in the works.
+
+@Na3iL then made the suggestion for an Ubucon. "Why don't we plan for an Ubuncon?" He asked. He followed that nicely enough with definition of the term Ubucon:
+
+> "An Ubucon is generally an informal, lightly structured gathering of Ubunteros. There are also other meetings and UbuntuConferences"
+
+<br/>
+
+At this juncture, things were beginning to wound up as the chairperson of the meeting, @Na3iL moved the motion for "Elect chairperson for next meeting". This was about the quickest thing to be concluded as there was an immediate unanimous re-election of @Na3iL.
+
+The final motion for the day was for the selection of a date for the next meeting. Someone suggested that this be treated in the [mailing list](https://launchpad.net/~ubuntu-africa) as a way to get people to use the list. Thus, everyone agreed that the date for next meeting be decided in there.
+
+I think the name of the user who came in at this time deserves a mention. It was @d3r1ck -- we didn't get his full identity.
+
+
+<br/>
+__ __
+
+#####[1]  I like the sound of the word "nuxers". :) It's a play on the phrase "Linux users".
+
+#####[2] The nicks don't need the preceeding '@'. It's used here for emphasis.

@@ -21,4 +21,5 @@ bookmark:programming:python:flask::http://github.com/realpython/discover-flask
 bookmark:programming:python::http://fullstackpython.com/
 bookmark:programming:python::http://realpython.com/
 bookmark:programming:python:flask:book::https://exploreflask.com/
+bookmark:programming:learn:howto::https://www.quora.com/What-are-some-of-the-best-ways-to-learn-programming?share=1&redirected_qid=3523312
 ::

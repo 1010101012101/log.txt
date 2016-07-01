@@ -746,7 +746,27 @@ I have yet to find something more expensive than "time". I will
 
 29.01.2016
 
+I attended Stellar.org's fireside chat today at the Idea Hub, Yaba Lagos. It was an enlightening event. One that may well be my gateway into the world of open source in this year.
 
+No doubt this will present a somewhat steep learning curve knowing that my background in finance (and FinTech) is not much to write home about. The experience and payoffs will of course be worth the while and I am expecting more developers to join the train as the platform is still very welcoming at this point.
+
+ Most of the details of the workings of Stellar are still very unclear to m, but a few things I've been able to make sense of include:
+
+Two terms: node and anchor
+Stellar maintains an open ledger of transactions. Financial institutions subscribed to the stellar service can offer Stellar credits.
+
+I am optimistic that once I tie myself in the loop of working on the code and working with the leads I get from time to time, it would all clear out in due course.
+
+I joined Stellar's Slack team @ http://stellar-public.slack.com. So far I've been received with warm arms.
+
+The project I'm looking to contribute to lives @ github.com/stellarcn/…
+
+
+During the event, we were split into teams to address different issues based on our interests. The group I went with was that of Scotts' (@nullstyle), where we addressed technical issues. Scott tried to work us through the technical nitty-gritties: innerworkings, stack and how-to-get-started. 
+
+Scott was the first Engineer at Stellar and he is a very experienced developer from what I've gathered. He is also technically sound -- so I've seen myself. He claims to be the most appropriate a person who knows most of the code that has been written as yet.
+
+During the
 
 
 
@@ -759,4 +779,99 @@ Meeting Agenda: https://wiki.ubuntu.com/AfricanTeams/Meetings/20160127
 Sometimes in learning something, you have to go back to the roots of that thing. That is what learning about Stellar has been like.
 
 Reading one thing leads to another. From learning about to Lumens to learning about cryptocurrencies, to Bitcoin, Litecoin and Ripplecoin and Altcoin. Then Paypal which dates far back.
+
+
+02.02.2014
+
+I spent most of today trying to polish an email for a Programmer job opening, only to learn after sending de that the recipient was Mr Gideon, the same person who interviewed me for the nIIT job which I apploed for last year.
+
+Earlier i tried to update my blog post about Ununtu Africa.
+
+Foynd some useful mail étiquettes
+
+
+05.02.2016
+
+I've spent most of this week at our makeshift office. Rather than being a time of acceleration, it's been a generally distracting week.
+
+Sent a job application on Tuesday.
+
+
+08.02.2016
+
+During my walk to the bus stop with Mr Jeff today, we talked about stuff like getting married, finding love… 
+
+He says in an argument/debate, reasoning always wond
+
+
+10.02.2016
+
+Don't kill life log. I started reading about "keeping a diary" today. Most of what I saw pointed back at what I had been doing with life log before complacency set in.
+
+Indeeed being a consistent writer, regardless of the subject area or content requires real dedication.
+
+I now have to seek ways, "hacks" if you'd like, to become more punctual in my writings.
+
+Today, I tried to be less talkative and be both more organized and focused. I found I was more productive.
+
+Although after my morning meal at our makeshift workspace, and after getting some work done on preparing a business plan, there was power failure that lasted a while.
+
+
+
+12.02.2016
+
+
+So today I got my Kindle ebook reading device. So far I love it. I learned it uses an electronic paper that uses reflective technology, making it seem like real paper.
+
+But there's a downside -- my major disappointment with it so far; it I can't use it at night without some sort of light source.
+
+Notwithstanding, I have sideloaded lots of ebooks (mostly PDFs) from my computer.
+
+My journey in the morning had me use a boat ferry. With myself, another passenger and two folks from the boar company, we set off on the journey that would last 10 minutes.
+
+This evening in a --' discussion with my friend Segun -- I told my dad's tale. How he once told my mum he'd forgiven all her sins, which he'd recorded in his diary. Funny.
+
+I listened to a radio program in which the subject of "Fargos" was treated.
+
+And another that had muslim clerics call in. One of them outrightly condemned Valentine's Day.
+
+I was in a public mass transit bus that was fully air conditioned. People still stand on these buses. SMH
+
+
+19.02.2016
+At Krohx, we have been having some workload on us recently. A lot of events have followed themseleves: from launching our Facebook page and website (currently still hosted on Github through their Github pages feature) to creating new logos (thanks to the design prowess of Seyi, our newest member) for both company and one of our products - JobNowNow.
+
+I'm really happy all of this is happening fast -- maybe not fast enough -- but we are showing some spirit.
+
+However, it's not all glittery as some of seem to be showing some slack, complacency if you'd like. I feel such times come, but we need to encourage ourselves and fill in the gaps for ourselves.
+
+
+25.02.2016
+
+I met Mrs Joke Demuren, who owns a bookstore at Ikota complex. This was after Mr Sam whom I stay with had left me with her as he was runnning late for work; so he handed over his duty to me.
+
+I got into more interesting intellectually-centered chats with the woman, and this culminated in a job -- a book review (plus other things) job.
+
+
+
+February Week 1
+
+Last week I went from sending applications to two programmer jobs. I had some battling with setting up Postgres with Flask; used several tutorials but itjust wasn't going to be something I would get so easily.
+
+Deji got some unlimited internet, which I used in running updates and downloading some new stuff: largely videos and software. I also got the offline version of the entire Mozilla Dev Network, available here.
+
+Through a friend, Aniekan, I learnt about the AIESEC organization.
+
+
+I decided to create this gallery -- The Army -- a curation of people I've encountered who have to do with Tech and or Entrepreneurship.
+
+
+Project thoughts:
+Forkhub local repo caching
+Pelican feature to filter categories on home page
+Game to help understand the concept of StellarOrg
+
+
+Thanks to @Thiefmaster and @ergo_ on IRC, I started learning about Docker and Ansible.
+
 

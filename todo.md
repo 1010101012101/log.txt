@@ -52,4 +52,16 @@ project:dev:router:app::Indicate BRT pickup points in app
 resume::to Mum
 blog::Add category: "LastWeekInChurch" … Christian writings on per week basis.
 project:dev::Improved hymn mobile app; in collaboration with Bro Muyiwa Ogunde
+project:dev::Stellar game (to explain the concepts of Stellar); Mobile app and Facebook apo
+project:dev::TAC Church app: announcements; prophecies; IM
+git:create repos for random data like Nigerian/African names (first names, names, female names, male names...) for developers to work with 
+3,55,114
+project:idea::a site for reviewing products; people can use these reviews to know if a product is worth purchasing
+project:a web app for viewing any site without its styling
+project:a mock for Slack that can be used to test any Slack integration being tested
+project:a web app for viewing the dictionary in one page with tiles. Hyperlinks appear in new tiles without leaving the page
+project:sms::social network like bulk SMS app. Groups are created and and shared across different group. Every user account has an associated phone number and user id, only resettable by confirmation on the phone. A user can see all the groups that have their number, and disable at will
+project:church.ng::A Slack-like app that allows churches to create subdomains, and run their activities
 ::
+
+07069681816

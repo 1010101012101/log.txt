@@ -122,4 +122,9 @@ What could be causing this?"
 
 ================#####=============
 
-
+My team (a startup) has a Facebook page.
+We are working on some apps.
+We have logos for these.
+We don't have cash for stuff yet (domain name reg.; patenting).
+Our website is hosted on Github.
+Can we share these logos and app names on the Facebook page? If "No", what do we do?

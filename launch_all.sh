@@ -36,10 +36,12 @@
 #		grep -Ev 'confg'	-	folder: "config", containing config files that I am DVCS tracking
 #		grep -Ev 'notes/'	-	folder: "notes"
 
-echo "Launching text files in GEdit ..."
-cd log_things_I_do/
-for file in `git ls-files | grep -Ev '.git' | grep -Ev '.sh' | grep -Ev '.py' | grep -Ev 'penned' | grep -Evi 'read' | grep -Ev 'quo' | grep -Ev 'song' | grep -Ev 'config' | grep -Ev 'notes/' ## `;		# loop through the files I'm tracking with git
-do gedit $file &>> gitnore/null_log &		# open current file with gedit and redirect output to file: "gitnore/null_log"
-done;
+# echo "Launching text files in GEdit ..."
+# cd log_things_I_do/
+# for file in `git ls-files | grep -Ev '.git' | grep -Ev '.sh' | grep -Ev '.py' | grep -Ev 'penned' | grep -Evi 'read' | grep -Ev 'quo' | grep -Ev 'song' | grep -Ev 'config' | grep -Ev 'notes/' ## `;		# loop through the files I'm tracking with git
+# do gedit $file &>> gitnore/null_log &		# open current file with gedit and redirect output to file: "gitnore/null_log"
+# done;
 
-echo "Done Launching!"
+# echo "Done Launching!"
+
+echo 'Script disabled! No longer needed.'

@@ -47,6 +47,11 @@ It was art."
 
 
 ================#####=================
+
+
+"If you haven't tinkered with your device, then you are not a gadget enthusiast. Be it software or hardware.""
+
+- Kanayo-Chukwu Precious Gabriel
 ================#####=================
 ================#####=================
 

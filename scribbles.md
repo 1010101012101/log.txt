@@ -899,7 +899,7 @@ The Flask documentation says [somethings]() about Blueprints and why they are us
 > Provide template filters, static files, templates, and other utilities through blueprints. A blueprint does not have to implement applications or view functions.
 
 
-Blueprints give a straightforward way to think of how to structure your application using modules, although you are not limited to blueprint modules alone; your app may  contain other modules as you wish.
+Blueprints give a straightforward way to think of how to structure your application using package modules, although you are not limited to blueprint packahe modules alone; your app may  contain other package modules as you wish.
 
 I started looking for common patterns among blueprints, and I discovered that, a blueprint can have among other things it's own set of view functions, with an optional URL prefix (configured using the `url_prefix` parameter in the instantiation of a new Blueprint object).
 
@@ -1254,7 +1254,9 @@ Well, thanks to my friend, Aniekan, I decided to peek outside my usual niche to 
 
 Last Sunday, I set out on a search for the developer programs available in Beau, Cameroon. This definitely didn't end up as a futile mission.
 
-The first group I found was the Google Developer Group in Beau run by [name here]. Next was the PlaywithPython initiative. And my last stop was… This one led me to Ubuntu  Africa, the Ubuntu community that encompasses all African Linux and Ubuntu users.
+The first group I found was the Google Developer Group in Beau run by [name here]. Then the co-working and incubation space "Active Spaces". Next was the PlaywithPython initiative. And my last stop was… This one led me to Ubuntu  Africa, the Ubuntu community that encompasses all African Linux and Ubuntu users.
+
+I followed the links I could find to get to know more about these programs: Github profiles, IRC channels, mailing lists, and even Facebook accounts of some individuals.
 ...
 
 
@@ -1349,6 +1351,31 @@ At the moment, the project I'm looking to contribute to is the [Python library](
 This project is still in beta form and could readily use some help. It was suggested to me by Scott Fleckenstein ([@nullstyle](https://twitter.com/nullstyle)), the first Engineer at Stellar. At the event, Scott tried to work us through the technical nitty-gritties: innerworkings, stack and how-to-get-started with contributing to the Stellar project. 
 
 These are just some of the things I have been able to wrap my mind around thus far. I am optimistic that once I tie myself in the loop of working on the code and working with the leads I get from time to time, it would all clear out in due course.
+
+
+================#####=================
+
+================#####=================
+
+Story for Stellar Game
+
+
+Game objective:
+The game seeks t help players learn about the Stellsr platform
+
+Game start.
+Intro about the Stellar organizatio and what it aims to achieve.
+
+User enters  game as one of:
+user
+gateway
+
+
+User's country and local currency are known.
+User can make transactions to other virtual users and gateways.
+Open Ledger is accessible.
+Local bank account details are known.
+
 
 
 ================#####=================
@@ -1451,3 +1478,470 @@ __ __
 #####[1] The word "nuxers" is a portmanteau of the words "Linux" and "users".
 
 #####[2] The nicks don't need the preceeding '@'. It's used here for emphasis.
+
+
+
+================#####=================
+
+It's 6 in the morning
+It's Monday's dawning
+My head's raised
+I look around me
+Heads turning left-right-left in a loop.
+Everyone is vigilant.
+The ladies have their hand sacs
+I see the men carry school bags too
+One thing is certain: We will all leave here
+But no one wants to leave last
+But someone has to be last to leave
+The vigilance continues
+My phone is pinged, severally
+It's the first day of the new month
+I know what messages they are without looking
+The thought of getting distracted at this rush hour?
+
+We are not the only ones here
+Private automobiles continuously pass us by
+Some are "kind" enough to reduce our population
+Is this really kindness?
+That they charge a fare after the trip is complete?
+I am not sure
+Others are comfortable enough to zoom off
+People call them heartless. Are they?
+I am not sure
+The ones that belong to us are not missing in action
+They come around too
+Making us exercise our bodies
+Giving us a run for our moneys
+Male, female, youn' and old
+Everyone is athletic again
+This isn't the Olympics
+
+
+Good morning and Happy New Month folks!
+
+
+================================
+Idea
+Forkhub offline mode
+Folklore wiki
+Pelican "Share" feature
+
+
+
+=============================
+
+
+Our Education system may need be revamped
+
+Shall our education system be better if the educators are not better?
+
+Many teachers go.to teaching college for the wrong reasons. The tertiary education admissions system is to ge chiefly blamed for this.
+
+Students are "accepted" into universities, and others go to colleges of education as an alternative means of education.
+The end result of this is that the latter is devalued. Students in the universities look down on those in colleges of education.
+
+This on my opinion is really flawed. The other downside to this is that students who finish from the colleges tend to be halfway baked. Many of them
+
+
+================================
+
+From my little foray into product dev:
+
+"Know when your product is not viable."
+
+A tough one it is for any product developer to learn of the inviability of his/her product. They'd obviously struggle to come to terms with this, but the truth is "why create a solution when there's no problem?"
+
+An interviewer once said to me, "Know when to enter and when to exit." I mean, if people don't need the product, then why force it on them?
+
+Yesterday, a friend shared a quote here, "The first law of an entrepreneur is, you can't afford to be pessimistic." At the time, I whole-heartedly concurred with that post. But having slept and woken up on it, add-in a bit of rumination, I now only agree in part. 
+In my opinion, while optimism is key to keeping your product vision alive, a little pessimism should be permitted.
+
+Another friend was recently asked by a potential investor, "What is your plan B if this venture fails?" Of course I didn't find this question surprising, but the question that followed left me a little puzzled.
+
+Thinking that he had done well in providing a backup plan, which he did, my friend was then asked, "What happens if plan B fails? Do you have a plan C?"
+
+
+I think some people might be able to handle that quite well, but what happens if you are asked plan D, E, and F?
+
+When going into the market, you have to understand that every business is a risky venture no matter how brilliant the idea sounds. You could have a great idea, but implement it poorly. You could come up with a fantastic product, but launch it prematurely or too late.
+
+The way around this as I've learnt is to treat with importance  MVP stage of product development. Wikipedia puts it as "…a core artifact in an iterative process of idea generation, prototyping, presentation, data collection, analysis and learning." Then tailoring your product based on user feedback on your minimum viable product.
+
+In rounding off, I'd like to.tag this "Feedback-Driven Development" (FDD).
+
+
+
+================================
+
+Documentation is your Friend
+
+I rememeber how taking sometime to gloss over the Flask documentation threw light on certain things I had previously struggled to understand.
+
+
+In the short time that I have had to burn-through the Django framework, I have made great use of the documentation in the addition to other guiding materials I have used.
+
+====%%
+
+Yes I became more social. That's why I.make more noise on facebook these days.
+
+I've seen the following categories of people:
+
+The thought provokers
+The encouragers
+The Godly and prayerful
+The complainers
+The "sharers"
+The 
+
+
+
+=======%%
+
+
+Musing about "programmer time"
+
+There are two sets of trade offs for programmer time I can think of.
+
+One is against computation time, in which programmer time wins.
+
+The other occurs when a dev has to decide between doing something once in say a period of 5 minutes versus dedicating 30 minutes to creating a solution for automating the task. In this case, pe
+
+
+
+=========
+Your projects are your bragging rights
+
+=========
+
+The members of the [Python-Nigeria mailing list](https://mail.python.org/mailman/listinfo/python-nigeria) got together for a maiden edition of meetups geared towards growing the Python community in Nigeria. The meeting had about thirty people in attendance.
+
+<center><a href="http://imgur.com/Co6BPKC"><img src="http://i.imgur.com/Co6BPKCl.jpg?1" title="Python-Nigeria Meetup: Olabayo conducting the meeting" /></a></center>
+
+<br/>
+Prior to the meeting, a few members had discussed the purpose and agenda for the meeting in the mailing list.
+
+The mailing list hasn't exactly been interactive as most members often resought to reading the digests without responding. This was one of the issues the meeting sought to address: to encourage members to participate more actively.
+
+The meeting was conducted by [Olabayo Onile-Ere](https://twitter.com/olabayo96) the moderator of the mailing list. Olabayo is the co-founder of [Hotels &amp; Perks](https://www.hotelsnperks.com/).
+
+Olabayo welcomed attendees and explained that the goal was for this group to become the driving force for the emerging Python community in Nigeria. He highlighted the need for more people to join the community, and brought up the topic of organizing a Python conference in Nigeria.
+
+Organizer of [Django Girls Lagos](https://twitter.com/DjangoGirlsLAG) and [Django Girls Windhoek](https://djangogirls.org/windhoek/), [Aisha Bello](https://twitter.com/AishaXBello) was invited to share her opinion having recently attended [PyCon Namibia](http://na.pycon.org/) where she delivered a [talk](https://speakerdeck.com/aishab/my-journey-through-python-1). She suggested we first organize a mini Nigerian Python conference to test the waters and sensitize people towards a full blown **PyCon** that would follow. Narrating her experience in Namibia, she noted that the community over there has made efforts to _take programming to the uninitiated_. Okay more seriously, they teach Python programming to secondary school students in the country.
+
+She also pointed out that there haven't been many PyCons in Africa; the only ones having held in South Africa and Namibia. It was interesting to know that Nigerias' would be the first in West Africa.
+
+
+There was a consensus; it was just as Aisha had suggested. A committee (made up of volunteers) was then setup to begin planning towards the event.
+
+
+<br/>
+Several members had the opportunity to address the audience during the meeting which lasted for over an hour. Notable among those who spoke was [Chukwudi](https://dl.dropboxusercontent.com/u/206213543/iChux.html), a very experienced Python programmer. In his words, _"I have been coding in Python everyday since 2004, except when I was sick and couldn't do anything."_
+
+<center><a href="http://imgur.com/TO2IbXE"><img src="http://i.imgur.com/TO2IbXEl.jpg" title="Python-Nigeria Meetup: Chukwudi addressing the audience" /></a></center>
+
+<br/>
+In his 12 years of Python programming, Chuks as he's fondly called, has co-reviewed a Python book and has worked in Ibadan for about 10 years. He now resides in Lagos with his family. He talked about some of the projects he's worked on, including a robot that would stealthily index all **".ng"** domains. He expressed his delight at finally getting to meet and possibly work with others in this Python space. He closed his speech saying,
+
+<br/>
+
+>"Python is something I code and breathe. It's a lovely language. You are welcome."
+
+<br/>
+One short presentation I particularly enjoyed was that of Dipo Odumosu about his work for the [National Population Commission](http://www.population.gov.ng/) in collaboration with [UNICEF](http://www.unicef.org/). They have an [application](http://br.rapidsmsnigeria.org/) that is used to track birth statistics in all local governments in the country. He described it as a conceptually simple app, but one that sort of has a bit of everything: built with [Django](https://www.djangoproject.com/) and [RapidSMS](https://www.rapidsms.org/); a little scientific and a little regular [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete); and aggregation is done using [Pandas](http://pandas.pydata.org/).
+
+He also spoke about their recurrent challenge with number crunching on large cumulative data, welcoming suggestions from the audience as to tackling the issue. As we were constrained by time, discussion on the issue will continue in the [mailing list](https://mail.python.org/mailman/listinfo/python-nigeria) or the newly setup [Slack community](https://pythonnigeria.slack.com/).
+
+<br/>
+First year student at [OAU Ife](http://www.oauife.edu.ng/), [Lekan Wahab](https://twitter.com/Olamyy_Fadil), who has been coding since secondary school stepped up to share his campus experience with the house. Explaining how his admission into the university was met with the disappointment of a non-existent programmer community, and how that inspired him to setup one by introducing his colleagues to the Python programming language,
+
+<br/>
+
+> "Before I got to school, I had this idea that I was going to meet quite a lot of programmers on campus, but I was very disappointed. The only other programmer in my class was a Java coder, and he said when he got to _'if'_, the stuff got really hard and he just dropped it; he said he wasn't interested in it anymore. Then I took it upon myself to start a club; I started Python Club in OAU."
+
+<br/>
+Personally, not only did I find this impressive, but it was even more exciting to learn of the amazing projects Lekan's group had been able to work on; projects including a home automation system built with the [Raspberry Pi](https://www.raspberrypi.org/), [Arduino](https://www.arduino.cc/) amd mobile devices, a payment/airtime recharge service and a search engine.
+
+Speaking further, Lekan used the medium to solicit support towards a forthcoming [Django Girls](https://djangogirls.org/) workshop organised by his club. The workshop is slated for April at Obafemi Awolowo University, Ile-Ife. **Volunteer mentors/coaches are needed for the workshop.** Kindly [visit this link](https://djangogirls.org/oau/) to learn more about the event.
+
+<br/>
+
+One of the items on the agenda for the evening was to come up with an idea for an open source application that the group would collaboratively work on. Olabayo welcomed interesting ideas from the audience, and these two came up:
+
+1. [Peter Ayeni](https://twitter.com/peterayeni_), founder of [GigCabal](http://www.gigcabal.com/), who came all the way from Abuja suggested that we work on a site analytics/ratings service for Nigerian websites. He likened this with existing platforms like [Alexa](http://www.alexa.com/) and [Webalizer](http://www.webalizer.org/).
+
+2. [Olamilekan Adeniji](https://twitter.com/Olamilec), creator of [mErgencyNG](https://vc4a.com/ventures/mergency/), explained the idea behind his product and suggested that we work on it collectively. The app will provide a platform for citizens to report crime/suspicions to appropriate agencies or radio corporations.
+
+A poll was conducted, and the house voted in favor of mErgencyNG. It was at this point that Chuks once again spoke and offered to open-source a library he had developed for analysing errors, in an effort to spark some creativity among the Pythonists.
+
+<br/>
+To encourage members even further, Olabayo read out a recent [email](https://mail.python.org/pipermail/python-nigeria/2016-February/000068.html) from [Naomi Ceder](https://twitter.com/naomiceder), the lady who had been moderating the mailing list, until just before the meeting when she passed this duty on to him.
+
+Afterwards, Olabayo designated the task of setting up a Slack community for the group to [Eyitemi Gbejule](https://twitter.com/eEyitemi), which he promptly did. The community is now active at [pythonnigeria.slack.com](http://pythonnigeria.slack.com).
+
+This was it. Thanks were in order (especially to [CcHub](http://cchubnigeria.com/) and organizers of Django Girls Lagos). The meeting was over.
+
+<br />
+
+<hr />
+
+**You can join the [Python-Nigeria Slack community](http://pythonnigeria.slack.com) by subscribing to the [mailing list](https://mail.python.org/mailman/listinfo/python-nigeria) at:**
+
+    https://mail.python.org/mailman/listinfo/python-nigeria
+
+**and sending an email requesting an invite to:**
+    
+    python-nigeria@python.org
+=========
+
+
+After Django Girls, What Next?
+
+Last Saturday, I got together with other Pythonistas to do something fun: teach computer programming to mostly a group of lady-folks.
+
+I'm publishing this now in the month of March, the International Women's History month. I didn't know this at the time.
+
+
+
+Preparations had been on for months prior to the event. The organizer even got a good pre-event test ground when she co-organized a similar event in Windhoek, Namibia.
+
+The ladies came from different parts of the country.
+
+
+These are my thoughts to the "girls" who stormed Lagos for Django. But I'd recommend same to any attendee of a DjangoGirls workshop anywhere.
+
+<br/>
+My recent foray into the social circle of techies has proven to me that growth is often driven by community. Hence, the first advice I'll offer is that you take DjangoGirls back to your city. 
+
+The organizer of DjangoGirls Lagos, [Aisha Bello](https://twitter.com/aishaxbello) herself only attended this event for the first time about a year ago. Isn't it wonderful that she's been able to put up two of such events within this period? Even though not everyone of you might be able to replicate what she has done, I encourage the few ones among you who can, to endeavour to.
+
+Also endeavour to join communities; create them if they don't exist. For starters, the Nigeria Python Users Group has a [mailing list]((https://mail.python.org/mailman/listinfo/python-nigeria)) where you can get updates on the Python community in Nigeria as well as a [Slack community](http://pythonnigeria.slack.com) where you can interact with other programmers.
+
+<br/>
+Did you get the contacts of your mentors? If you didn't, head over to the [DjangoGirls Lagos page](https://djangogirls.org/lagos/#coach) and get their Twitter handles. Bug them! Well, don't annoy them, but do not hesitate to ask them questions when you're stuck. They'd be glad to help, I'm sure.
+
+And really, the learning goes both ways. Post-workshop, one of the participants of the workshop showed me an error she had encountered, and I was glad to learn that by tinkering with it, she found her way out of the maze. But that's not all. From seeing her approach, **I picked up new knowledge from it too**.
+
+<br/>
+This post is meant to give you a quasi-roadmap, which you don't have to follow religiously but keep close enough to consult when you're lost.
+
+So you learnt Python alongside its arguably most popular web-development framework: [Django](https://www.djangoproject.com/); and now you can code the next Facebook (Oh, were you told you could only build blogs with that new super power you picked up?) Now, I think the world has more blogging apps than we can keep track of, don't you think so?
+
+So get creative; I assure you you've gotten past the first and most basic hurdle to creating just about any kind of web app: a social network or an e-commerce platform or something else that's interesting. Think of how important this is in an age when everything is moving to the web. You've definitely gotten a head start!
+
+But you'd need to be prepared to learn new stuff as you go. Don't let that put you off as those things would be equally exciting. And you don't have to know it all before you begin; you can learn on-the-job.
+
+<br/>
+Speaking of what you learnt at the workshop, I'm sure you know you were merely introduced to the technologies, not taught comprehensively. In my opinion, you may need to go over [the whole tutorial](http://tutorial.djangogirls.org/en/) again; then try to build something different -- like [a ToDo application](http://code.tutsplus.com/articles/intro-to-django-building-a-to-do-list--net-2871) -- from the example shown. Afterwards, for some more comprehensive Python tutorial that is hands-on, try [codecademy](https://www.codecademy.com/learn/python). It'll be fun, trust me.
+
+There are several tutorials available as [MOOCs](https://www.mooc-list.com/) or video tutorials on web platforms like [Youtube](https://www.youtube.com/), [Edx](https://www.edx.org/), [Udemy](https://www.udemy.com/), [Coursera](https://www.coursera.org/), and [Udacity](https://www.udacity.com/) among others. Who knows, you could build the next _e-school_ for Africa. Pick any of these courses, and try to follow along. You don't have to be in a hurry, although you may find yourself skipping stuff you have already learnt.
+
+I'll advise you [pick up some Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) as you go. I assure you that a mix of skills in these two languages will empower you so well.
+
+I also recommend you put up blog posts as you learn new stuff as if to teach same to others (teaching is a proven way to better learn anything). [Medium](https://medium.com/) would be a good place to start, but there are [several alternatives](http://thenextweb.com/businessapps/2013/08/16/best-blogging-services/#gref). You should also read blogs often. Let me mention that Django Girls has a [blog](http://blog.djangogirls.org/) you might be interested in checking out and so does [PyLadies](http://www.pyladies.com/blog/). See more interesting [Python blogs here](http://pythontips.com/2013/07/31/10-python-blogs-worth-following/)
+
+<br/>
+During the workshop, I told my mentees that Python is a suitable language for such a workshop for three reasons:
+
+1. It's [easy to learn](https://www.quora.com/Is-Python-easy-to-master/answer/Tosin-Damilare-James-Animashaun?srid=zzQ2).
+2. It's platform-independent.
+3. It has a lot of application domains.
+
+Take caution not to misinterpret _reason-1_ to mean "easy to **master**" ([See answer to "Is Python easy to master?"](https://www.quora.com/Is-Python-easy-to-master/answer/Tosin-Damilare-James-Animashaun?srid=zzQ2)), especially because of _reason-3_: "Python has a lot of application domains". Be it [scientific](http://docs.python-guide.org/en/latest/scenarios/scientific/), [systems administration](http://docs.python-guide.org/en/latest/scenarios/admin/), [machine learning/artificial intelligence](http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html), [statistical data analysis](http://ipython-books.github.io/featured-07/), [game development or scripting](https://wiki.python.org/moin/GameProgramming), [web scraping](http://www.gregreda.com/2013/03/03/web-scraping-101-with-python/), and [web development](https://www.fullstackpython.com/web-development.html). For those with [IoT](https://en.wikipedia.org/wiki/Internet_of_Things) in mind, especially with [Raspberry Pi](https://www.raspberrypi.org/) and or [Arduino](https://www.arduino.cc/), Python is readily applicable to those platforms.
+
+So you see there's quite a [long way to go](http://norvig.com/21-days.html), yet with what little knowledge you've gained, you're able to achieve something worthwhile.
+
+<br/>
+Moving on, you can share your work with others, and work collaboratively. You were introduced to [version-controlling](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) using [Git](https://en.wikipedia.org/wiki/Git_(software)) and [Github](https://github.com/), which are well worth some learning time. You can learn Git through [this course](https://www.codecademy.com/pt-BR/learn/learn-git). Don't worry if you don't get it all at once, I struggled through this too at first. [This video](https://www.youtube.com/watch?v=ZDR433b0HJY) by Git evangelist, [Scott Chacon](http://scottchacon.com/about.html) also deals a good deal on the subject.
+
+<br/>
+How much time it'd take to become quite comfortable with all of this would depend on three things:
+
+1. Your interest
+2. Your consistency
+3. Your learning aptitude
+
+However, I'd say [6 months should be fine](http://www.codeconquest.com/programmer-6-months/). Within this time you would have learnt enough to kick-start an exciting project. In fact, some people might have gotten halfway with some project in this time.
+
+<br/>
+**Good luck in your programming journey!**
+
+
+
+
+Well
+
+
+
+Many of you came from different locations. From 
+
+
+
+========
+
+uice to it all, do so in admirable fashion. This is one of those times when I wish I could capture the sound alongside the photo.
+
+Twists and turns are the displays thst these ….
+
+
+
+==========
+
+I have yet to learn how to tame my enthusiasm
+
+I sit now and make juxtaposes with a chariot
+
+
+
+Like a hackney
+It precedes me,
+Galavanting in gallops
+
+Fueled by my passiom
+It gallops ahead with leap bounds
+
+Unbridled it appears ay first glance
+The leash of perceived perception
+
+
+Yet no one sees it
+It's me in the back seat who gets all the attention
+
+
+
+It is wild, yes, like one that's unbridled
+I ask, shall I 
+
+To suppress it, I'd have to mount it
+But it appears walloping
+
+My speeches come as erratic,
+I have it to thank
+
+My actions, full of life and spirit
+Very energetic
+
+My works appear to …
+
+My enthusiasm, a horse I have yet to tame
+
+
+=====
+
+Pick a book.
+Take a look.
+If it's good.
+Set the mood.
+
+Turn the leaf.
+On you read.
+When in chaos.
+Fold to close.
+
+Leave.
+Live.
+Go.
+Grow.
+Return.
+Read a ton.
+
+=====
+
+My time is split in writing
+Writing thoughts
+Writind code
+Writing words
+Writing lyrics
+Not of a song
+But of a poem
+
+====
+
+A book
+The meeting place of two minds
+One, a clone
+Appearing static
+But ever dynamic
+The other, a tourist
+Never
+
+A book is the meeting place of two minds
+One patiently waiting upon the other
+Always there when it returns you return to it
+Unchanged, yet differing in meaning
+A book grows
+
+=====
+
+I like cold mornings
+Wear my hoodie
+Pick q book to read
+Or pick my pen to write in one
+
+
+======%
+
+
+
+About to get philosophical….
+
+crouched on our seats,
+
+We watch with illusory gazes the scene that unfolds right
+before our eyes.
+
+I see folks whom ai can liken to ynhatched eggs
+Jubulating in incubation as the countdown goes on
+
+You ask, what's philosophical about this.
+Even I think I'm blabbing
+
+
+
+=====
+
+
+Today I spent most of my time just getting atuned to my new job. From posting a few tweets to commemorate the World Book Day that was marked today to doling out SMSes to our customers.
+
+First task was for me to come up with an exciting and concise text, which I made my efforts at. I got to learn a few étiquettes of bulk SMSing.
+
+The major barrier to bulk SMSing is the text characters limit. Actually, I think this should  be seen as a strength. The fact thaf you don't have to be verbose about it, and that you focus on the central thene of the message, then keeping it strictly to that.
+
+Then creativity applies when you think of how to fit the pieces together.
+
+I cane up with different versions of the same message and showed them to my employer for her approval. Surprisingly enough, she liked them all.
+
+
+Later on I thought on the subject of the influx of young programmers into the tech industry. I smell a great deal of enthusiasm.
+
+My fear however is that growth in the Nigerian techosphere is somewhat disproportionate. I have seen a few cities 
+
+=========
+
+I went through a list mailing list proper conduct checklist. This is how I paraphrase the basic rules.
+
+    - Do your research before asking.
+
+    - Keep the message short enough.
+
+    - Don't post code or some log output. ([Pastebin it](), and post a link to it instead).
+
+    - Don't include attachments in your message. (Host it elsewhere, and post a link to it instead)
+
+    - Don't send HTML formatted email; stick with plain text.
+
+    - Start your messgage under a new subject if the topic is new. If it belongs to a previously existing topic, then post your new message as a "reply" to that existing thread.
+
+    - Use a clear, concise and in-context subject line.
+
+    - Use bottom, interleaved posting instead of top-posting. For bottom-posting, let your reply appear directly below the message you are replying to, and trim off the irrelevant parts of the message. When responding to several messages in one mail, use interleaved posting; put your response to each message below the corresponding message. (Some email softwares would prepend each line of the message you are responding to with a '> ').
+
+    - Avoid cross-posting. Do not CC multiple lists with the same message.
+
+    - Use short messages in your signature. And avoid huge disclaimer messages.
+
+    - Avoid repetitive posting.
+
+    - Be polite, use proper language. Avoid using uppercase letters unnecessarily, so you don't appear to be shouting at your readers.
+
+

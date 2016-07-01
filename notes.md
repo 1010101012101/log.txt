@@ -111,6 +111,20 @@ Some sample strings which match the above regexp:
 	- # this file uses encoding: utf-8
 
 
+As a mechanism for "defensive programming," try to write assertions (no pun intended) to ensure you're getting the right/expected input/input-range before going ahead to process same.
+
+
+Testing
+-------
+
+"For unit tests, start with testing that it does what it is designed to do. That should be the very first case you write. If part of the design is "it should throw an exception if you pass in junk", test that too since that is part of the design.
+
+Start with that. As you get experience with doing that most basic of testing you'll begin to learn whether or not that is sufficient, and start to see other aspects of your code that need testing."
+
+
+"You are working on some specific piece of code, and this is exactly what you want to test. This means that you should not be testing library functions, the standard library or your compiler. Also, try to avoid testing the 'world'. This includes: calling external web APIs, some database intensive stuff, etc. Whenever you can try to mock it up (make an object that follows the same interface, but returns static, predefined data)."
+
+
 
 
 
@@ -299,3 +313,20 @@ The most basic difference between the Java String class and the Java String Buil
 Immutability results improves program performance.
 
 Java has a [constant] String pool in which it tracks all the String objects it creates in the program run cycle. If a new String is created by simple assignment to a quoted string of characters, Java looks up the string pool, to reuse any already existing string that matches the new string, otherwise, it creates a new String and adds it to the String pool.
+
+
+
+=========
+Openshift
+=========
+
+Common commands:
+
+	rhc app-stop {app_instance_name}
+	rhc app-force-stop {app_instance_name}
+	rhc app-start {app_instance_name}
+	rhc app-restart {app_instance_name}
+
+	rhc tail {app_instance_name}  # view app logs
+
+	rhc set-env [env_var_name]=[env_var_value]
